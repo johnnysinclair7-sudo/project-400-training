@@ -62,9 +62,6 @@ for activity in activities:
 
     try:
 
-        # IMPORTANT:
-        # intervals=true tells Intervals.icu to include the
-        # activity's calculated/manual interval data.
         detail_url = (
             f"{BASE_URL}/activity/{activity_id}"
             f"?intervals=true"
@@ -74,7 +71,9 @@ for activity in activities:
 
         activity_details.append(detail)
 
-        activity_intervals = detail.get("icu_intervals") or []
+        activity_intervals = (
+            detail.get("icu_intervals") or []
+        )
 
         print(
             f"{activity_id}: "
@@ -89,12 +88,15 @@ for activity in activities:
             row = dict(interval)
 
             row["activity_id"] = activity_id
+
             row["activity_date"] = activity.get(
                 "start_date_local"
             )
+
             row["activity_name"] = activity.get(
                 "name"
             )
+
             row["interval_number"] = number
 
             intervals.append(row)
@@ -140,8 +142,8 @@ for activity in activities:
         merged = dict(activity)
         merged.update(detail)
 
-        # Avoid copying the potentially large interval array
-        # into every activity object sent to Sheets.
+        # Avoid copying large interval arrays
+        # into every activity record.
         merged.pop("icu_intervals", None)
 
         merged_activities.append(merged)
@@ -180,6 +182,87 @@ print(
 
 
 # ============================================================
+# POWER CURVES
+# ============================================================
+
+power_curves = {}
+
+curve_periods = [
+    "42d",
+    "84d",
+    "all"
+]
+
+activity_types = [
+    "Ride",
+    "VirtualRide"
+]
+
+
+for period in curve_periods:
+
+    power_curves[period] = {}
+
+    for activity_type in activity_types:
+
+        try:
+
+            curve_url = (
+                f"{BASE_URL}/athlete/"
+                f"{ATHLETE_ID}/power-curves.json"
+                f"?curves={period}"
+                f"&type={activity_type}"
+            )
+
+            curve = get_json(curve_url)
+
+            power_curves[period][
+                activity_type
+            ] = curve
+
+            print(
+                f"Retrieved {period} "
+                f"{activity_type} power curve"
+            )
+
+            if isinstance(curve, dict):
+
+                print(
+                    f"{period} {activity_type} "
+                    f"keys: {list(curve.keys())}"
+                )
+
+            elif isinstance(curve, list):
+
+                print(
+                    f"{period} {activity_type} "
+                    f"returned {len(curve)} items"
+                )
+
+                if len(curve) > 0:
+
+                    first_item = curve[0]
+
+                    if isinstance(
+                        first_item,
+                        dict
+                    ):
+
+                        print(
+                            f"First item keys: "
+                            f"{list(first_item.keys())}"
+                        )
+
+        except Exception as e:
+
+            print(
+                f"Could not retrieve "
+                f"{period} {activity_type} "
+                f"power curve: {e}"
+            )
+
+
+# ============================================================
 # BUILD OUTPUT
 # ============================================================
 
@@ -200,7 +283,9 @@ output = {
 
     "intervals": intervals,
 
-    "wellness": wellness
+    "wellness": wellness,
+
+    "power_curves": power_curves
 }
 
 
