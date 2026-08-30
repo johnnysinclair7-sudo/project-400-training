@@ -74,7 +74,7 @@ for activity in activities:
 
         activity_details.append(detail)
 
-        activity_intervals = detail.get("intervals") or []
+        activity_intervals = detail.get("icu_intervals") or []
 
         print(
             f"{activity_id}: "
@@ -142,7 +142,7 @@ for activity in activities:
 
         # Avoid copying the potentially large interval array
         # into every activity object sent to Sheets.
-        merged.pop("intervals", None)
+        merged.pop("icu_intervals", None)
 
         merged_activities.append(merged)
 
