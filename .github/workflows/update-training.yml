@@ -1,0 +1,41 @@
+name: Update Project 400 Training
+
+on:
+  schedule:
+    - cron: "15 5 * * *"
+    - cron: "15 12 * * *"
+    - cron: "15 20 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-training:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Export Intervals training
+        env:
+          INTERVALS_API_KEY: ${{ secrets.INTERVALS_API_KEY }}
+          INTERVALS_ATHLETE_ID: ${{ secrets.INTERVALS_ATHLETE_ID }}
+        run: python export_training.py
+
+      - name: Commit updated training data
+        run: |
+          git config user.name "Project 400 Bot"
+          git config user.email "actions@github.com"
+          git add training.json
+          git diff --cached --quiet || git commit -m "Update training data"
+          git push
