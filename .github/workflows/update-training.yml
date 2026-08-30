@@ -26,7 +26,7 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-     - name: Export Intervals training
+      - name: Export Intervals training
         env:
           INTERVALS_API_KEY: ${{ secrets.INTERVALS_API_KEY }}
           INTERVALS_ATHLETE_ID: ${{ secrets.INTERVALS_ATHLETE_ID }}
