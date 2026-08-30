@@ -42,10 +42,11 @@ print(f"Found {len(activities)} activities")
 
 
 # ============================================================
-# ACTIVITY DETAILS
+# ACTIVITY DETAILS + INTERVALS
 # ============================================================
 
 activity_details = []
+intervals = []
 
 for activity in activities:
 
@@ -54,23 +55,54 @@ for activity in activities:
     if not activity_id:
         continue
 
-    # Strava-only placeholder activities cannot always be
-    # retrieved through the Intervals API.
+    # Skip Strava placeholder rows that are not accessible
+    # through the Intervals.icu activity API.
     if not str(activity_id).startswith("i"):
         continue
 
     try:
 
-        detail_url = f"{BASE_URL}/activity/{activity_id}"
+        # IMPORTANT:
+        # intervals=true tells Intervals.icu to include the
+        # activity's calculated/manual interval data.
+        detail_url = (
+            f"{BASE_URL}/activity/{activity_id}"
+            f"?intervals=true"
+        )
 
         detail = get_json(detail_url)
 
         activity_details.append(detail)
 
+        activity_intervals = detail.get("intervals") or []
+
+        print(
+            f"{activity_id}: "
+            f"{len(activity_intervals)} intervals"
+        )
+
+        for number, interval in enumerate(
+            activity_intervals,
+            start=1
+        ):
+
+            row = dict(interval)
+
+            row["activity_id"] = activity_id
+            row["activity_date"] = activity.get(
+                "start_date_local"
+            )
+            row["activity_name"] = activity.get(
+                "name"
+            )
+            row["interval_number"] = number
+
+            intervals.append(row)
+
     except Exception as e:
 
         print(
-            f"Could not retrieve details for "
+            f"Could not retrieve activity "
             f"{activity_id}: {e}"
         )
 
@@ -80,21 +112,14 @@ print(
     f"{len(activity_details)} activities"
 )
 
+print(
+    f"Found {len(intervals)} total intervals"
+)
+
 
 # ============================================================
 # MERGE ACTIVITY DETAILS
 # ============================================================
-
-# The activity-list response is useful for chronology.
-# The detail response contains richer fields such as:
-# average_watts
-# icu_weighted_avg_watts
-# icu_joules
-# decoupling
-# icu_power_hr_z2
-# icu_cadence_z2
-# icu_rpe
-# feel
 
 detail_by_id = {
     str(a.get("id")): a
@@ -114,6 +139,10 @@ for activity in activities:
 
         merged = dict(activity)
         merged.update(detail)
+
+        # Avoid copying the potentially large interval array
+        # into every activity object sent to Sheets.
+        merged.pop("intervals", None)
 
         merged_activities.append(merged)
 
@@ -140,26 +169,14 @@ try:
 
 except Exception as e:
 
-    print(f"Could not retrieve wellness: {e}")
+    print(
+        f"Could not retrieve wellness: {e}"
+    )
 
 
-print(f"Found {len(wellness)} wellness records")
-
-
-# ============================================================
-# INTERVALS
-# ============================================================
-
-# Temporarily left empty.
-#
-# Our previous assumption that activity detail contained
-# detail["intervals"] was incorrect.
-#
-# The next upgrade will explicitly retrieve and parse the
-# Intervals.icu activity/FIT data rather than silently creating
-# incorrect interval rows.
-
-intervals = []
+print(
+    f"Found {len(wellness)} wellness records"
+)
 
 
 # ============================================================
@@ -188,7 +205,7 @@ output = {
 
 
 # ============================================================
-# SAVE GITHUB BACKUP
+# SAVE TRAINING.JSON
 # ============================================================
 
 with open(
@@ -213,9 +230,7 @@ print("Saved training.json")
 # ============================================================
 
 payload = {
-
     "token": GOOGLE_SHEETS_WEBHOOK_TOKEN,
-
     "data": output
 }
 
