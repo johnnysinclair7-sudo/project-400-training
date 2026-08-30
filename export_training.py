@@ -18,6 +18,7 @@ BASE_URL = "https://intervals.icu/api/v1"
 
 auth = ("API_KEY", API_KEY)
 
+end_date = date.today()
 start_date = end_date - timedelta(days=365)
 
 
