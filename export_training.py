@@ -225,12 +225,30 @@ for period in curve_periods:
                 f"{activity_type} power curve"
             )
 
-            if isinstance(curve, dict):
+           if isinstance(curve, dict):
 
-                print(
-                    f"{period} {activity_type} "
-                    f"keys: {list(curve.keys())}"
-                )
+    print(
+        f"{period} {activity_type} "
+        f"keys: {list(curve.keys())}"
+    )
+
+    curve_list = curve.get("list") or []
+
+    print(
+        f"{period} {activity_type} "
+        f"list type: {type(curve_list).__name__}"
+    )
+
+    print(
+        f"{period} {activity_type} "
+        f"list length: {len(curve_list)}"
+    )
+
+    print(
+        f"{period} {activity_type} "
+        f"list sample: "
+        f"{json.dumps(curve_list[:3], default=str)[:2000]}"
+    )
 
             elif isinstance(curve, list):
 
