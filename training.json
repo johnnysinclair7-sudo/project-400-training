@@ -12344,13 +12344,6 @@
   ],
   "activity_details": [
     {
-      "id": "19961952517",
-      "icu_athlete_id": "i597214",
-      "start_date_local": "2026-08-30T12:12:46",
-      "source": "STRAVA",
-      "_note": "STRAVA activities are not available via the API"
-    },
-    {
       "id": "i181219961",
       "start_date_local": "2026-08-30T07:42:09",
       "type": "Run",
@@ -12859,13 +12852,6 @@
       "icu_average_watts": 226,
       "icu_variability_index": 1.141593,
       "strain_score": 173.45757
-    },
-    {
-      "id": "19938476353",
-      "icu_athlete_id": "i597214",
-      "start_date_local": "2026-08-28T17:19:44",
-      "source": "STRAVA",
-      "_note": "STRAVA activities are not available via the API"
     },
     {
       "id": "i180754082",
@@ -13386,13 +13372,6 @@
       "icu_average_watts": 178,
       "icu_variability_index": 1.505618,
       "strain_score": 87.55838
-    },
-    {
-      "id": "19922870383",
-      "icu_athlete_id": "i597214",
-      "start_date_local": "2026-08-27T08:48:00",
-      "source": "STRAVA",
-      "_note": "STRAVA activities are not available via the API"
     },
     {
       "id": "i180163095",
@@ -14800,13 +14779,6 @@
       "strain_score": 12.614865
     },
     {
-      "id": "19907374633",
-      "icu_athlete_id": "i597214",
-      "start_date_local": "2026-08-26T07:26:00",
-      "source": "STRAVA",
-      "_note": "STRAVA activities are not available via the API"
-    },
-    {
       "id": "i180002210",
       "start_date_local": "2026-08-25T17:52:12",
       "type": "Ride",
@@ -15901,13 +15873,6 @@
       "strain_score": null
     },
     {
-      "id": "19846359497",
-      "icu_athlete_id": "i597214",
-      "start_date_local": "2026-08-22T07:37:04",
-      "source": "STRAVA",
-      "_note": "STRAVA activities are not available via the API"
-    },
-    {
       "id": "i177811490",
       "start_date_local": "2026-08-20T06:55:06",
       "type": "Ride",
@@ -16458,13 +16423,6 @@
       "icu_average_watts": 247,
       "icu_variability_index": 1.048583,
       "strain_score": 298.237
-    },
-    {
-      "id": "19809233267",
-      "icu_athlete_id": "i597214",
-      "start_date_local": "2026-08-19T14:10:04",
-      "source": "STRAVA",
-      "_note": "STRAVA activities are not available via the API"
     },
     {
       "id": "i177503966",
@@ -17247,27 +17205,6 @@
       "icu_average_watts": 189,
       "icu_variability_index": 1.2063493,
       "strain_score": 153.81557
-    },
-    {
-      "id": "19781302082",
-      "icu_athlete_id": "i597214",
-      "start_date_local": "2026-08-17T16:24:18",
-      "source": "STRAVA",
-      "_note": "STRAVA activities are not available via the API"
-    },
-    {
-      "id": "19775984498",
-      "icu_athlete_id": "i597214",
-      "start_date_local": "2026-08-17T08:12:29",
-      "source": "STRAVA",
-      "_note": "STRAVA activities are not available via the API"
-    },
-    {
-      "id": "19769123063",
-      "icu_athlete_id": "i597214",
-      "start_date_local": "2026-08-16T16:39:06",
-      "source": "STRAVA",
-      "_note": "STRAVA activities are not available via the API"
     },
     {
       "id": "i176046622",
@@ -18384,13 +18321,6 @@
       "strain_score": 116.40395
     },
     {
-      "id": "19711938388",
-      "icu_athlete_id": "i597214",
-      "start_date_local": "2026-08-12T14:56:52",
-      "source": "STRAVA",
-      "_note": "STRAVA activities are not available via the API"
-    },
-    {
       "id": "i175166263",
       "start_date_local": "2026-08-12T14:56:18",
       "type": "VirtualRide",
@@ -18608,13 +18538,6 @@
       "icu_average_watts": null,
       "icu_variability_index": null,
       "strain_score": null
-    },
-    {
-      "id": "19700391858",
-      "icu_athlete_id": "i597214",
-      "start_date_local": "2026-08-11T19:13:04",
-      "source": "STRAVA",
-      "_note": "STRAVA activities are not available via the API"
     },
     {
       "id": "i174623502",
@@ -18893,13 +18816,6 @@
       "icu_average_watts": 205,
       "icu_variability_index": 1.4439025,
       "strain_score": 152.15799
-    },
-    {
-      "id": "19681369095",
-      "icu_athlete_id": "i597214",
-      "start_date_local": "2026-08-10T13:34:48",
-      "source": "STRAVA",
-      "_note": "STRAVA activities are not available via the API"
     },
     {
       "id": "i174291276",
@@ -19762,13 +19678,6 @@
       "icu_average_watts": 221,
       "icu_variability_index": 1.2171946,
       "strain_score": 115.96854
-    },
-    {
-      "id": "19626115550",
-      "icu_athlete_id": "i597214",
-      "start_date_local": "2026-08-06T11:43:39",
-      "source": "STRAVA",
-      "_note": "STRAVA activities are not available via the API"
     },
     {
       "id": "i172958733",
