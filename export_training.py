@@ -39,6 +39,61 @@ def get_json(url):
     return response.json()
 
 
+def get_curve_value(curve_response, target_seconds):
+
+    if not isinstance(curve_response, dict):
+        return None
+
+    curve_list = curve_response.get("list") or []
+
+    if not curve_list:
+        return None
+
+    curve = curve_list[0]
+
+    secs = curve.get("secs") or []
+    values = curve.get("values") or []
+
+    if target_seconds not in secs:
+        return None
+
+    index = secs.index(target_seconds)
+
+    if index >= len(values):
+        return None
+
+    return values[index]
+
+
+def best_curve_value(curves, period, target_seconds):
+
+    values = []
+
+    for activity_type in [
+        "Ride",
+        "VirtualRide"
+    ]:
+
+        curve_response = (
+            curves
+            .get(period, {})
+            .get(activity_type)
+        )
+
+        value = get_curve_value(
+            curve_response,
+            target_seconds
+        )
+
+        if value is not None:
+            values.append(value)
+
+    if not values:
+        return None
+
+    return max(values)
+
+
 # ============================================================
 # ACTIVITIES
 # ============================================================
@@ -51,7 +106,9 @@ activities_url = (
 
 activities = get_json(activities_url)
 
-print(f"Found {len(activities)} activities")
+print(
+    f"Found {len(activities)} activities"
+)
 
 
 # ============================================================
@@ -68,9 +125,8 @@ for activity in activities:
     if not activity_id:
         continue
 
-    # Intervals.icu API activity IDs start with "i".
-    # Numeric Strava placeholder rows cannot be retrieved
-    # through the activity detail endpoint.
+    # Intervals.icu activity IDs accessible
+    # through the API begin with "i".
     if not str(activity_id).startswith("i"):
         continue
 
@@ -147,9 +203,13 @@ merged_activities = []
 
 for activity in activities:
 
-    activity_id = str(activity.get("id"))
+    activity_id = str(
+        activity.get("id")
+    )
 
-    detail = detail_by_id.get(activity_id)
+    detail = detail_by_id.get(
+        activity_id
+    )
 
     if detail:
 
@@ -157,16 +217,21 @@ for activity in activities:
 
         merged.update(detail)
 
-        # Intervals are already stored separately.
-        # Removing them here prevents unnecessary duplication
-        # inside training.json and the Sheets payload.
-        merged.pop("icu_intervals", None)
+        # Intervals are stored separately.
+        merged.pop(
+            "icu_intervals",
+            None
+        )
 
-        merged_activities.append(merged)
+        merged_activities.append(
+            merged
+        )
 
     else:
 
-        merged_activities.append(activity)
+        merged_activities.append(
+            activity
+        )
 
 
 # ============================================================
@@ -183,7 +248,9 @@ try:
         f"&newest={end_date.isoformat()}"
     )
 
-    wellness = get_json(wellness_url)
+    wellness = get_json(
+        wellness_url
+    )
 
 except Exception as e:
 
@@ -193,12 +260,13 @@ except Exception as e:
 
 
 print(
-    f"Found {len(wellness)} wellness records"
+    f"Found {len(wellness)} "
+    f"wellness records"
 )
 
 
 # ============================================================
-# POWER CURVES
+# RAW POWER CURVES
 # ============================================================
 
 power_curves = {}
@@ -230,9 +298,13 @@ for period in curve_periods:
                 f"&type={activity_type}"
             )
 
-            curve = get_json(curve_url)
+            curve = get_json(
+                curve_url
+            )
 
-            power_curves[period][
+            power_curves[
+                period
+            ][
                 activity_type
             ] = curve
 
@@ -240,87 +312,6 @@ for period in curve_periods:
                 f"Retrieved {period} "
                 f"{activity_type} power curve"
             )
-
-            # ------------------------------------------------
-            # TEMPORARY DIAGNOSTIC OUTPUT
-            #
-            # This lets us inspect the exact structure of the
-            # Intervals.icu power curve response before mapping
-            # it into Google Sheets.
-            # ------------------------------------------------
-
-            if isinstance(curve, dict):
-
-                print(
-                    f"{period} {activity_type} "
-                    f"keys: {list(curve.keys())}"
-                )
-
-                curve_list = (
-                    curve.get("list") or []
-                )
-
-                print(
-                    f"{period} {activity_type} "
-                    f"list type: "
-                    f"{type(curve_list).__name__}"
-                )
-
-                print(
-                    f"{period} {activity_type} "
-                    f"list length: "
-                    f"{len(curve_list)}"
-                )
-
-                print(
-                    f"{period} {activity_type} "
-                    f"list sample: "
-                    f"{json.dumps(
-                        curve_list[:3],
-                        default=str
-                    )[:2000]}"
-                )
-
-                curve_activities = (
-                    curve.get("activities") or []
-                )
-
-                print(
-                    f"{period} {activity_type} "
-                    f"activities type: "
-                    f"{type(curve_activities).__name__}"
-                )
-
-                print(
-                    f"{period} {activity_type} "
-                    f"activities length: "
-                    f"{len(curve_activities)}"
-                )
-
-                print(
-                    f"{period} {activity_type} "
-                    f"activities sample: "
-                    f"{json.dumps(
-                        curve_activities[:2],
-                        default=str
-                    )[:2000]}"
-                )
-
-            elif isinstance(curve, list):
-
-                print(
-                    f"{period} {activity_type} "
-                    f"returned {len(curve)} items"
-                )
-
-                print(
-                    f"{period} {activity_type} "
-                    f"sample: "
-                    f"{json.dumps(
-                        curve[:3],
-                        default=str
-                    )[:2000]}"
-                )
 
         except Exception as e:
 
@@ -332,6 +323,62 @@ for period in curve_periods:
 
 
 # ============================================================
+# COMPACT POWER CURVE SUMMARY
+# ============================================================
+
+power_curve_durations = {
+    "5s": 5,
+    "15s": 15,
+    "30s": 30,
+    "1m": 60,
+    "2m": 120,
+    "5m": 300,
+    "10m": 600,
+    "20m": 1200,
+    "40m": 2400,
+    "60m": 3600
+}
+
+
+power_curve_summary = []
+
+
+for period in curve_periods:
+
+    row = {
+        "period": period,
+        "generated_date": (
+            end_date.isoformat()
+        )
+    }
+
+    for label, seconds in (
+        power_curve_durations.items()
+    ):
+
+        row[label] = (
+            best_curve_value(
+                power_curves,
+                period,
+                seconds
+            )
+        )
+
+    power_curve_summary.append(
+        row
+    )
+
+
+print(
+    "Power curve summary:"
+)
+
+for row in power_curve_summary:
+
+    print(row)
+
+
+# ============================================================
 # BUILD OUTPUT
 # ============================================================
 
@@ -339,22 +386,42 @@ output = {
 
     "athlete_id": ATHLETE_ID,
 
-    "generated_date": end_date.isoformat(),
+    "generated_date": (
+        end_date.isoformat()
+    ),
 
     "period": {
-        "from": start_date.isoformat(),
-        "to": end_date.isoformat()
+        "from": (
+            start_date.isoformat()
+        ),
+        "to": (
+            end_date.isoformat()
+        )
     },
 
-    "activities": merged_activities,
+    "activities": (
+        merged_activities
+    ),
 
-    "activity_details": activity_details,
+    "activity_details": (
+        activity_details
+    ),
 
-    "intervals": intervals,
+    "intervals": (
+        intervals
+    ),
 
-    "wellness": wellness,
+    "wellness": (
+        wellness
+    ),
 
-    "power_curves": power_curves
+    "power_curves": (
+        power_curves
+    ),
+
+    "power_curve_summary": (
+        power_curve_summary
+    )
 }
 
 
@@ -376,7 +443,9 @@ with open(
     )
 
 
-print("Saved training.json")
+print(
+    "Saved training.json"
+)
 
 
 # ============================================================
@@ -384,7 +453,9 @@ print("Saved training.json")
 # ============================================================
 
 payload = {
-    "token": GOOGLE_SHEETS_WEBHOOK_TOKEN,
+    "token": (
+        GOOGLE_SHEETS_WEBHOOK_TOKEN
+    ),
     "data": output
 }
 
