@@ -7,6 +7,13 @@
   },
   "activities": [
     {
+      "id": "20008004620",
+      "icu_athlete_id": "i597214",
+      "start_date_local": "2026-09-02T16:45:34",
+      "source": "STRAVA",
+      "_note": "STRAVA activities are not available via the API"
+    },
+    {
       "id": "i182355138",
       "start_date_local": "2026-09-02T07:01:39",
       "type": "VirtualRide",
@@ -301,7 +308,7 @@
       "elapsed_time": 1682,
       "icu_weighted_avg_watts": null,
       "carbs_used": null,
-      "name": "Cardio",
+      "name": "Evening Workout",
       "description": null,
       "start_date": "2026-09-01T17:01:53Z",
       "distance": null,
@@ -58964,7 +58971,7 @@
       "elapsed_time": 1682,
       "icu_weighted_avg_watts": null,
       "carbs_used": null,
-      "name": "Cardio",
+      "name": "Evening Workout",
       "description": null,
       "start_date": "2026-09-01T17:01:53Z",
       "distance": null,
@@ -216940,7 +216947,7 @@
       "average_stride": null,
       "activity_id": "i182174906",
       "activity_date": "2026-09-01T18:01:53",
-      "activity_name": "Cardio",
+      "activity_name": "Evening Workout",
       "interval_number": 1
     },
     {
@@ -341274,7 +341281,7 @@
           "pMax": 1201.5555
         }
       ],
-      "updated": "2026-09-02T09:50:12.789+00:00",
+      "updated": "2026-09-02T18:36:15.808+00:00",
       "weight": null,
       "restingHR": 38,
       "hrv": 67.0,
@@ -341305,7 +341312,7 @@
       "abdomen": null,
       "vo2max": null,
       "comments": null,
-      "steps": 2330,
+      "steps": 6821,
       "respiration": null,
       "carbohydrates": null,
       "protein": null,
