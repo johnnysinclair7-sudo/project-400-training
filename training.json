@@ -1,9 +1,9 @@
 {
   "athlete_id": "i597214",
-  "generated_date": "2026-09-03",
+  "generated_date": "2026-09-04",
   "period": {
-    "from": "2025-09-03",
-    "to": "2026-09-03"
+    "from": "2025-09-04",
+    "to": "2026-09-04"
   },
   "activities": [
     {
@@ -336172,61 +336172,6 @@
   ],
   "wellness": [
     {
-      "id": "2025-09-03",
-      "ctl": 0.0,
-      "atl": 0.0,
-      "rampRate": 0.0,
-      "ctlLoad": 0.0,
-      "atlLoad": 0.0,
-      "sportInfo": [
-        {
-          "type": "Ride",
-          "eftp": null,
-          "wPrime": null,
-          "pMax": null
-        }
-      ],
-      "updated": "2026-06-05T06:06:50.249+00:00",
-      "weight": null,
-      "restingHR": 40,
-      "hrv": 61.0,
-      "hrvSDNN": null,
-      "menstrualPhase": null,
-      "menstrualPhasePredicted": null,
-      "kcalConsumed": null,
-      "sleepSecs": 28620,
-      "sleepScore": 56.0,
-      "sleepQuality": 4,
-      "avgSleepingHR": null,
-      "soreness": null,
-      "fatigue": null,
-      "stress": null,
-      "mood": null,
-      "motivation": null,
-      "injury": null,
-      "spO2": null,
-      "systolic": null,
-      "diastolic": null,
-      "hydration": null,
-      "hydrationVolume": null,
-      "readiness": null,
-      "baevskySI": null,
-      "bloodGlucose": null,
-      "lactate": null,
-      "bodyFat": null,
-      "abdomen": null,
-      "vo2max": 62.0,
-      "comments": null,
-      "steps": 12522,
-      "respiration": null,
-      "carbohydrates": null,
-      "protein": null,
-      "fatTotal": null,
-      "locked": null,
-      "tempWeight": false,
-      "tempRestingHR": false
-    },
-    {
       "id": "2025-09-04",
       "ctl": 0.0,
       "atl": 0.0,
@@ -356261,7 +356206,7 @@
           "pMax": 1201.5555
         }
       ],
-      "updated": "2026-09-03T17:00:38.983+00:00",
+      "updated": "2026-09-04T05:06:15.479+00:00",
       "weight": null,
       "restingHR": 38,
       "hrv": 72.0,
@@ -356292,13 +356237,68 @@
       "abdomen": null,
       "vo2max": null,
       "comments": null,
-      "steps": 3824,
+      "steps": 5814,
       "respiration": null,
       "carbohydrates": null,
       "protein": null,
       "fatTotal": null,
       "locked": null,
       "tempWeight": true,
+      "tempRestingHR": false
+    },
+    {
+      "id": "2026-09-04",
+      "ctl": 77.41695,
+      "atl": 80.58172,
+      "rampRate": 0.85232544,
+      "ctlLoad": 0.0,
+      "atlLoad": 0.0,
+      "sportInfo": [
+        {
+          "type": "Ride",
+          "eftp": 350.29837,
+          "wPrime": 29869.174,
+          "pMax": 1201.5555
+        }
+      ],
+      "updated": "2026-09-04T05:32:31.020+00:00",
+      "weight": null,
+      "restingHR": 38,
+      "hrv": 64.0,
+      "hrvSDNN": null,
+      "menstrualPhase": null,
+      "menstrualPhasePredicted": null,
+      "kcalConsumed": null,
+      "sleepSecs": 24960,
+      "sleepScore": 78.0,
+      "sleepQuality": 3,
+      "avgSleepingHR": null,
+      "soreness": null,
+      "fatigue": null,
+      "stress": null,
+      "mood": null,
+      "motivation": null,
+      "injury": null,
+      "spO2": null,
+      "systolic": null,
+      "diastolic": null,
+      "hydration": null,
+      "hydrationVolume": null,
+      "readiness": null,
+      "baevskySI": null,
+      "bloodGlucose": null,
+      "lactate": null,
+      "bodyFat": null,
+      "abdomen": null,
+      "vo2max": null,
+      "comments": null,
+      "steps": 224,
+      "respiration": null,
+      "carbohydrates": null,
+      "protein": null,
+      "fatTotal": null,
+      "locked": null,
+      "tempWeight": false,
       "tempRestingHR": false
     }
   ],
@@ -356310,8 +356310,8 @@
             "id": "42d",
             "after_kj": 0,
             "label": "42 days",
-            "start_date_local": "2026-07-24T00:00:00",
-            "end_date_local": "2026-09-04T00:00:00",
+            "start_date_local": "2026-07-25T00:00:00",
+            "end_date_local": "2026-09-05T00:00:00",
             "days": 43,
             "moving_time": 0,
             "training_load": 0,
@@ -356518,9 +356518,7 @@
               18300,
               18600,
               18900,
-              19200,
-              19500,
-              19800
+              19200
             ],
             "values": [
               1056,
@@ -356724,9 +356722,7 @@
               191,
               190,
               190,
-              189,
-              173,
-              172
+              189
             ],
             "activity_id": [
               "i171306176",
@@ -356930,9 +356926,7 @@
               "i176046622",
               "i176046622",
               "i176046622",
-              "i176046622",
-              "i168897359",
-              "i168897359"
+              "i176046622"
             ],
             "watts_per_kg": [
               13.4522295,
@@ -357136,9 +357130,7 @@
               2.433121,
               2.4203823,
               2.4203823,
-              2.4076433,
-              2.2038217,
-              2.1910827
+              2.4076433
             ],
             "wkg_activity_id": [
               "i171306176",
@@ -357342,9 +357334,7 @@
               "i176046622",
               "i176046622",
               "i176046622",
-              "i176046622",
-              "i168897359",
-              "i168897359"
+              "i176046622"
             ],
             "powerModels": [
               {
@@ -357605,15 +357595,23 @@
               191,
               190,
               190,
-              189,
-              173,
-              172
+              189
             ],
             "vo2max_5m": 62.927387,
             "compound_score_5m": 2141.4014
           }
         ],
         "activities": {
+          "i172156819": {
+            "id": "i172156819",
+            "name": "Camden Road Cycling",
+            "distance": 85713.69,
+            "moving_time": 10813,
+            "training_load": 112,
+            "icu_weight": 78.5,
+            "start_date_local": "2026-08-03T06:12:43",
+            "race": false
+          },
           "i174099171": {
             "id": "i174099171",
             "name": "Claviers Road Cycling",
@@ -357694,16 +357692,6 @@
             "start_date_local": "2026-09-01T05:28:57",
             "race": false
           },
-          "i168897359": {
-            "id": "i168897359",
-            "name": "Camden Road Cycling",
-            "distance": 141065.05,
-            "moving_time": 17531,
-            "training_load": 239,
-            "icu_weight": 78.5,
-            "start_date_local": "2026-07-24T14:18:56",
-            "race": false
-          },
           "i180163095": {
             "id": "i180163095",
             "name": "Hillingdon Road Cycling",
@@ -357712,6 +357700,16 @@
             "training_load": 36,
             "icu_weight": 78.5,
             "start_date_local": "2026-08-26T20:14:58",
+            "race": false
+          },
+          "i169077923": {
+            "id": "i169077923",
+            "name": "Watford Cycling",
+            "distance": 4789.49,
+            "moving_time": 661,
+            "training_load": 5,
+            "icu_weight": 78.5,
+            "start_date_local": "2026-07-25T12:53:44",
             "race": false
           },
           "i171005753": {
@@ -357732,6 +357730,16 @@
             "training_load": 126,
             "icu_weight": 78.5,
             "start_date_local": "2026-08-31T07:08:04",
+            "race": false
+          },
+          "i169301266": {
+            "id": "i169301266",
+            "name": "Braintree Road Cycling",
+            "distance": 34767.88,
+            "moving_time": 3873,
+            "training_load": 57,
+            "icu_weight": 78.5,
+            "start_date_local": "2026-07-26T09:12:20",
             "race": false
           },
           "i171306176": {
@@ -357772,16 +357780,6 @@
             "training_load": 119,
             "icu_weight": 78.5,
             "start_date_local": "2026-07-28T05:46:37",
-            "race": false
-          },
-          "i168695951": {
-            "id": "i168695951",
-            "name": "Camden Road Cycling",
-            "distance": 75168.3,
-            "moving_time": 8020,
-            "training_load": 105,
-            "icu_weight": 78.5,
-            "start_date_local": "2026-07-24T05:29:15",
             "race": false
           },
           "i169777403": {
@@ -357822,8 +357820,8 @@
             "id": "42d",
             "after_kj": 0,
             "label": "42 days",
-            "start_date_local": "2026-07-24T00:00:00",
-            "end_date_local": "2026-09-04T00:00:00",
+            "start_date_local": "2026-07-25T00:00:00",
+            "end_date_local": "2026-09-05T00:00:00",
             "days": 43,
             "moving_time": 0,
             "training_load": 0,
@@ -358030,9 +358028,7 @@
               18300,
               18600,
               18900,
-              19200,
-              19500,
-              19800
+              19200
             ],
             "values": [
               1056,
@@ -358236,9 +358232,7 @@
               191,
               190,
               190,
-              189,
-              173,
-              172
+              189
             ],
             "activity_id": [
               "i171306176",
@@ -358442,9 +358436,7 @@
               "i176046622",
               "i176046622",
               "i176046622",
-              "i176046622",
-              "i168897359",
-              "i168897359"
+              "i176046622"
             ],
             "watts_per_kg": [
               13.4522295,
@@ -358648,9 +358640,7 @@
               2.433121,
               2.4203823,
               2.4203823,
-              2.4076433,
-              2.2038217,
-              2.1910827
+              2.4076433
             ],
             "wkg_activity_id": [
               "i171306176",
@@ -358854,9 +358844,7 @@
               "i176046622",
               "i176046622",
               "i176046622",
-              "i176046622",
-              "i168897359",
-              "i168897359"
+              "i176046622"
             ],
             "powerModels": [
               {
@@ -359117,15 +359105,23 @@
               191,
               190,
               190,
-              189,
-              173,
-              172
+              189
             ],
             "vo2max_5m": 62.927387,
             "compound_score_5m": 2141.4014
           }
         ],
         "activities": {
+          "i172156819": {
+            "id": "i172156819",
+            "name": "Camden Road Cycling",
+            "distance": 85713.69,
+            "moving_time": 10813,
+            "training_load": 112,
+            "icu_weight": 78.5,
+            "start_date_local": "2026-08-03T06:12:43",
+            "race": false
+          },
           "i174099171": {
             "id": "i174099171",
             "name": "Claviers Road Cycling",
@@ -359206,16 +359202,6 @@
             "start_date_local": "2026-09-01T05:28:57",
             "race": false
           },
-          "i168897359": {
-            "id": "i168897359",
-            "name": "Camden Road Cycling",
-            "distance": 141065.05,
-            "moving_time": 17531,
-            "training_load": 239,
-            "icu_weight": 78.5,
-            "start_date_local": "2026-07-24T14:18:56",
-            "race": false
-          },
           "i180163095": {
             "id": "i180163095",
             "name": "Hillingdon Road Cycling",
@@ -359224,6 +359210,16 @@
             "training_load": 36,
             "icu_weight": 78.5,
             "start_date_local": "2026-08-26T20:14:58",
+            "race": false
+          },
+          "i169077923": {
+            "id": "i169077923",
+            "name": "Watford Cycling",
+            "distance": 4789.49,
+            "moving_time": 661,
+            "training_load": 5,
+            "icu_weight": 78.5,
+            "start_date_local": "2026-07-25T12:53:44",
             "race": false
           },
           "i171005753": {
@@ -359244,6 +359240,16 @@
             "training_load": 126,
             "icu_weight": 78.5,
             "start_date_local": "2026-08-31T07:08:04",
+            "race": false
+          },
+          "i169301266": {
+            "id": "i169301266",
+            "name": "Braintree Road Cycling",
+            "distance": 34767.88,
+            "moving_time": 3873,
+            "training_load": 57,
+            "icu_weight": 78.5,
+            "start_date_local": "2026-07-26T09:12:20",
             "race": false
           },
           "i171306176": {
@@ -359284,16 +359290,6 @@
             "training_load": 119,
             "icu_weight": 78.5,
             "start_date_local": "2026-07-28T05:46:37",
-            "race": false
-          },
-          "i168695951": {
-            "id": "i168695951",
-            "name": "Camden Road Cycling",
-            "distance": 75168.3,
-            "moving_time": 8020,
-            "training_load": 105,
-            "icu_weight": 78.5,
-            "start_date_local": "2026-07-24T05:29:15",
             "race": false
           },
           "i169777403": {
@@ -359336,8 +359332,8 @@
             "id": "84d",
             "after_kj": 0,
             "label": "84 days",
-            "start_date_local": "2026-06-12T00:00:00",
-            "end_date_local": "2026-09-04T00:00:00",
+            "start_date_local": "2026-06-13T00:00:00",
+            "end_date_local": "2026-09-05T00:00:00",
             "days": 85,
             "moving_time": 0,
             "training_load": 0,
@@ -360737,16 +360733,6 @@
             "training_load": 109,
             "icu_weight": 78.5,
             "start_date_local": "2026-08-01T06:18:38",
-            "race": false
-          },
-          "i156580019": {
-            "id": "i156580019",
-            "name": "Point Stuart Cycling",
-            "distance": 39739.62,
-            "moving_time": 5364,
-            "training_load": 79,
-            "icu_weight": 78.5,
-            "start_date_local": "2026-06-12T13:19:43",
             "race": false
           },
           "i164896939": {
@@ -360967,8 +360953,8 @@
             "id": "84d",
             "after_kj": 0,
             "label": "84 days",
-            "start_date_local": "2026-06-12T00:00:00",
-            "end_date_local": "2026-09-04T00:00:00",
+            "start_date_local": "2026-06-13T00:00:00",
+            "end_date_local": "2026-09-05T00:00:00",
             "days": 85,
             "moving_time": 0,
             "training_load": 0,
@@ -362368,16 +362354,6 @@
             "training_load": 109,
             "icu_weight": 78.5,
             "start_date_local": "2026-08-01T06:18:38",
-            "race": false
-          },
-          "i156580019": {
-            "id": "i156580019",
-            "name": "Point Stuart Cycling",
-            "distance": 39739.62,
-            "moving_time": 5364,
-            "training_load": 79,
-            "icu_weight": 78.5,
-            "start_date_local": "2026-06-12T13:19:43",
             "race": false
           },
           "i164896939": {
@@ -362601,8 +362577,8 @@
             "after_kj": 0,
             "label": "All time",
             "start_date_local": "1986-01-01",
-            "end_date_local": "2026-09-04T23:59:59",
-            "days": 133,
+            "end_date_local": "2026-09-05T23:59:59",
+            "days": 134,
             "moving_time": 0,
             "training_load": 0,
             "weight": 78.5,
@@ -364192,8 +364168,8 @@
             "after_kj": 0,
             "label": "All time",
             "start_date_local": "1986-01-01",
-            "end_date_local": "2026-09-04T23:59:59",
-            "days": 133,
+            "end_date_local": "2026-09-05T23:59:59",
+            "days": 134,
             "moving_time": 0,
             "training_load": 0,
             "weight": 78.5,
@@ -365781,7 +365757,7 @@
   "power_curve_summary": [
     {
       "period": "42d",
-      "generated_date": "2026-09-03",
+      "generated_date": "2026-09-04",
       "5s": 1015,
       "15s": 833,
       "30s": 737,
@@ -365795,7 +365771,7 @@
     },
     {
       "period": "84d",
-      "generated_date": "2026-09-03",
+      "generated_date": "2026-09-04",
       "5s": 1165,
       "15s": 854,
       "30s": 792,
@@ -365809,7 +365785,7 @@
     },
     {
       "period": "all",
-      "generated_date": "2026-09-03",
+      "generated_date": "2026-09-04",
       "5s": 1165,
       "15s": 1000,
       "30s": 792,
