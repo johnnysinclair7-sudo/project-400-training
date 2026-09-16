@@ -7,6 +7,13 @@
   },
   "activities": [
     {
+      "id": "20196434610",
+      "icu_athlete_id": "i597214",
+      "start_date_local": "2026-09-16T08:55:06",
+      "source": "STRAVA",
+      "_note": "STRAVA activities are not available via the API"
+    },
+    {
       "id": "i187199143",
       "start_date_local": "2026-09-16T06:01:06",
       "type": "VirtualRide",
@@ -400924,7 +400931,7 @@
           "pMax": 1200.354
         }
       ],
-      "updated": "2026-09-16T07:14:30.607+00:00",
+      "updated": "2026-09-16T08:24:34.738+00:00",
       "weight": null,
       "restingHR": 38,
       "hrv": 61.0,
@@ -400955,7 +400962,7 @@
       "abdomen": null,
       "vo2max": null,
       "comments": null,
-      "steps": 371,
+      "steps": 1848,
       "respiration": null,
       "carbohydrates": null,
       "protein": null,
