@@ -418,7 +418,7 @@
       "total_elevation_gain": null,
       "total_elevation_loss": null,
       "timezone": null,
-      "trainer": true,
+      "trainer": null,
       "sub_type": null,
       "commute": false,
       "race": false,
@@ -447,7 +447,7 @@
       "gap_model": "NONE",
       "use_elevation_correction": false,
       "gear": {
-        "id": "b17095865",
+        "id": "b13588001",
         "name": null,
         "distance": null,
         "primary": null
@@ -598,7 +598,7 @@
       "icu_median_time_delta": 1,
       "p30s_exponent": 3.0,
       "workout_shift_secs": null,
-      "strava_id": "20236117724",
+      "strava_id": "20236098790",
       "lengths": null,
       "pool_length": null,
       "compliance": null,
@@ -71871,7 +71871,7 @@
       "total_elevation_gain": null,
       "total_elevation_loss": null,
       "timezone": null,
-      "trainer": true,
+      "trainer": null,
       "sub_type": null,
       "commute": false,
       "race": false,
@@ -71900,7 +71900,7 @@
       "gap_model": "NONE",
       "use_elevation_correction": false,
       "gear": {
-        "id": "b17095865",
+        "id": "b13588001",
         "name": null,
         "distance": null,
         "primary": null
@@ -72051,7 +72051,7 @@
       "icu_median_time_delta": 1,
       "p30s_exponent": 3.0,
       "workout_shift_secs": null,
-      "strava_id": "20236117724",
+      "strava_id": "20236098790",
       "lengths": null,
       "pool_length": null,
       "compliance": null,
@@ -421635,7 +421635,7 @@
           "pMax": 1200.354
         }
       ],
-      "updated": "2026-09-20T09:20:38.230+00:00",
+      "updated": "2026-09-20T17:08:45.897+00:00",
       "weight": null,
       "restingHR": 38,
       "hrv": 49.0,
@@ -421666,7 +421666,7 @@
       "abdomen": null,
       "vo2max": null,
       "comments": null,
-      "steps": 658,
+      "steps": 6607,
       "respiration": null,
       "carbohydrates": null,
       "protein": null,
