@@ -7,6 +7,13 @@
   },
   "activities": [
     {
+      "id": "20325423067",
+      "icu_athlete_id": "i597214",
+      "start_date_local": "2026-09-25T16:02:36",
+      "source": "STRAVA",
+      "_note": "STRAVA activities are not available via the API"
+    },
+    {
       "id": "i190001502",
       "start_date_local": "2026-09-24T17:17:40",
       "type": "VirtualRide",
@@ -438152,20 +438159,20 @@
     },
     {
       "id": "2026-09-25",
-      "ctl": 81.090645,
-      "atl": 77.532104,
-      "rampRate": -0.22485352,
-      "ctlLoad": 0.0,
-      "atlLoad": 0.0,
+      "ctl": 81.63179,
+      "atl": 80.59392,
+      "rampRate": 0.3162918,
+      "ctlLoad": 23.0,
+      "atlLoad": 23.0,
       "sportInfo": [
         {
           "type": "Ride",
-          "eftp": 349.24857,
-          "wPrime": 29779.656,
-          "pMax": 1197.9546
+          "eftp": 349.59814,
+          "wPrime": 29809.465,
+          "pMax": 1199.1537
         }
       ],
-      "updated": "2026-09-25T10:38:13.147+00:00",
+      "updated": "2026-09-25T15:50:37.295+00:00",
       "weight": null,
       "restingHR": 38,
       "hrv": 62.0,
@@ -438196,13 +438203,13 @@
       "abdomen": null,
       "vo2max": null,
       "comments": null,
-      "steps": 5077,
+      "steps": 7240,
       "respiration": null,
       "carbohydrates": null,
       "protein": null,
       "fatTotal": null,
       "locked": null,
-      "tempWeight": false,
+      "tempWeight": true,
       "tempRestingHR": false
     }
   ],
