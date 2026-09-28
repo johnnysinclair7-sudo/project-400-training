@@ -421,7 +421,7 @@
       "elapsed_time": 4625,
       "icu_weighted_avg_watts": 295,
       "carbs_used": 232,
-      "name": "Indoor Cycling",
+      "name": "Afternoon Ride",
       "description": null,
       "start_date": "2026-09-27T14:25:38Z",
       "distance": 36371.47,
@@ -460,7 +460,7 @@
       "gap_model": "NONE",
       "use_elevation_correction": false,
       "gear": {
-        "id": "b17095865",
+        "id": "b13588001",
         "name": null,
         "distance": null,
         "primary": null
@@ -76457,7 +76457,7 @@
       "elapsed_time": 4625,
       "icu_weighted_avg_watts": 295,
       "carbs_used": 232,
-      "name": "Indoor Cycling",
+      "name": "Afternoon Ride",
       "description": null,
       "start_date": "2026-09-27T14:25:38Z",
       "distance": 36371.47,
@@ -76496,7 +76496,7 @@
       "gap_model": "NONE",
       "use_elevation_correction": false,
       "gear": {
-        "id": "b17095865",
+        "id": "b13588001",
         "name": null,
         "distance": null,
         "primary": null
@@ -284862,7 +284862,7 @@
       "average_stride": 3.0736725,
       "activity_id": "i190906215",
       "activity_date": "2026-09-27T15:25:38",
-      "activity_name": "Indoor Cycling",
+      "activity_name": "Afternoon Ride",
       "interval_number": 1
     },
     {
@@ -284952,7 +284952,7 @@
       "average_stride": 3.482361,
       "activity_id": "i190906215",
       "activity_date": "2026-09-27T15:25:38",
-      "activity_name": "Indoor Cycling",
+      "activity_name": "Afternoon Ride",
       "interval_number": 2
     },
     {
@@ -285042,7 +285042,7 @@
       "average_stride": 2.8596447,
       "activity_id": "i190906215",
       "activity_date": "2026-09-27T15:25:38",
-      "activity_name": "Indoor Cycling",
+      "activity_name": "Afternoon Ride",
       "interval_number": 3
     },
     {
@@ -285132,7 +285132,7 @@
       "average_stride": 2.755001,
       "activity_id": "i190906215",
       "activity_date": "2026-09-27T15:25:38",
-      "activity_name": "Indoor Cycling",
+      "activity_name": "Afternoon Ride",
       "interval_number": 4
     },
     {
@@ -285222,7 +285222,7 @@
       "average_stride": 2.7472644,
       "activity_id": "i190906215",
       "activity_date": "2026-09-27T15:25:38",
-      "activity_name": "Indoor Cycling",
+      "activity_name": "Afternoon Ride",
       "interval_number": 5
     },
     {
@@ -443885,7 +443885,7 @@
           "pMax": 1195.5598
         }
       ],
-      "updated": "2026-09-28T08:02:29.368+00:00",
+      "updated": "2026-09-28T10:28:35.742+00:00",
       "weight": null,
       "restingHR": 38,
       "hrv": 57.0,
@@ -443916,7 +443916,7 @@
       "abdomen": null,
       "vo2max": null,
       "comments": null,
-      "steps": 103,
+      "steps": 597,
       "respiration": null,
       "carbohydrates": null,
       "protein": null,
@@ -445345,7 +445345,7 @@
           },
           "i190906215": {
             "id": "i190906215",
-            "name": "Indoor Cycling",
+            "name": "Afternoon Ride",
             "distance": 36371.47,
             "moving_time": 4201,
             "training_load": 83,
@@ -446792,7 +446792,7 @@
           },
           "i190906215": {
             "id": "i190906215",
-            "name": "Indoor Cycling",
+            "name": "Afternoon Ride",
             "distance": 36371.47,
             "moving_time": 4201,
             "training_load": 83,
@@ -448367,7 +448367,7 @@
           },
           "i190906215": {
             "id": "i190906215",
-            "name": "Indoor Cycling",
+            "name": "Afternoon Ride",
             "distance": 36371.47,
             "moving_time": 4201,
             "training_load": 83,
@@ -449930,7 +449930,7 @@
           },
           "i190906215": {
             "id": "i190906215",
-            "name": "Indoor Cycling",
+            "name": "Afternoon Ride",
             "distance": 36371.47,
             "moving_time": 4201,
             "training_load": 83,
@@ -451575,7 +451575,7 @@
           },
           "i190906215": {
             "id": "i190906215",
-            "name": "Indoor Cycling",
+            "name": "Afternoon Ride",
             "distance": 36371.47,
             "moving_time": 4201,
             "training_load": 83,
@@ -453218,7 +453218,7 @@
           },
           "i190906215": {
             "id": "i190906215",
-            "name": "Indoor Cycling",
+            "name": "Afternoon Ride",
             "distance": 36371.47,
             "moving_time": 4201,
             "training_load": 83,
