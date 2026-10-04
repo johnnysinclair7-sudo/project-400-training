@@ -471656,7 +471656,7 @@
           "pMax": 1193.1699
         }
       ],
-      "updated": "2026-10-04T07:31:30.350+00:00",
+      "updated": "2026-10-04T14:00:22.443+00:00",
       "weight": null,
       "restingHR": 42,
       "hrv": 43.0,
@@ -471693,7 +471693,7 @@
       "protein": null,
       "fatTotal": null,
       "locked": null,
-      "tempWeight": false,
+      "tempWeight": true,
       "tempRestingHR": false
     }
   ],
