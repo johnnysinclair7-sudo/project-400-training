@@ -1,11 +1,18 @@
 {
   "athlete_id": "i597214",
-  "generated_date": "2026-10-18",
+  "generated_date": "2026-10-19",
   "period": {
-    "from": "2025-10-18",
-    "to": "2026-10-18"
+    "from": "2025-10-19",
+    "to": "2026-10-19"
   },
   "activities": [
+    {
+      "id": "20643646508",
+      "icu_athlete_id": "i597214",
+      "start_date_local": "2026-10-19T07:57:41",
+      "source": "STRAVA",
+      "_note": "STRAVA activities are not available via the API"
+    },
     {
       "id": "i198592925",
       "start_date_local": "2026-10-18T10:37:11",
@@ -102,13 +109,13 @@
       ],
       "pace_zones": null,
       "lthr": 172,
-      "icu_resting_hr": 44,
+      "icu_resting_hr": 43,
       "icu_weight": 79.0,
       "icu_power_zones": null,
       "icu_sweet_spot_min": 0,
       "icu_sweet_spot_max": 0,
       "icu_power_spike_threshold": null,
-      "trimp": 18.05325,
+      "trimp": 18.383741,
       "icu_warmup_time": 0,
       "icu_cooldown_time": 0,
       "icu_chat_id": null,
@@ -1332,7 +1339,7 @@
       "icu_recording_time": 4233,
       "elapsed_time": 4234,
       "icu_weighted_avg_watts": 301,
-      "carbs_used": null,
+      "carbs_used": 210,
       "name": "Zwift - Tempo",
       "description": "🗺️ Roule Ma Poule in France",
       "start_date": "2026-10-16T06:50:03Z",
@@ -2001,7 +2008,7 @@
       "icu_recording_time": 3938,
       "elapsed_time": 3939,
       "icu_weighted_avg_watts": 256,
-      "carbs_used": null,
+      "carbs_used": 176,
       "name": "Zwift - Endurance",
       "description": "🗺️ Classique in London",
       "start_date": "2026-10-15T17:19:43Z",
@@ -2346,7 +2353,7 @@
       "icu_recording_time": 3276,
       "elapsed_time": 3316,
       "icu_weighted_avg_watts": 213,
-      "carbs_used": null,
+      "carbs_used": 135,
       "name": "Zwift - Endurance",
       "description": "🗺️ London 8 in London",
       "start_date": "2026-10-15T12:04:17Z",
@@ -91120,13 +91127,13 @@
       ],
       "pace_zones": null,
       "lthr": 172,
-      "icu_resting_hr": 44,
+      "icu_resting_hr": 43,
       "icu_weight": 79.0,
       "icu_power_zones": null,
       "icu_sweet_spot_min": 0,
       "icu_sweet_spot_max": 0,
       "icu_power_spike_threshold": null,
-      "trimp": 18.05325,
+      "trimp": 18.383741,
       "icu_warmup_time": 0,
       "icu_cooldown_time": 0,
       "icu_chat_id": null,
@@ -93388,7 +93395,7 @@
       "icu_recording_time": 4233,
       "elapsed_time": 4234,
       "icu_weighted_avg_watts": 301,
-      "carbs_used": null,
+      "carbs_used": 210,
       "name": "Zwift - Tempo",
       "description": "🗺️ Roule Ma Poule in France",
       "start_date": "2026-10-16T06:50:03Z",
@@ -95026,7 +95033,7 @@
       "icu_recording_time": 3938,
       "elapsed_time": 3939,
       "icu_weighted_avg_watts": 256,
-      "carbs_used": null,
+      "carbs_used": 176,
       "name": "Zwift - Endurance",
       "description": "🗺️ Classique in London",
       "start_date": "2026-10-15T17:19:43Z",
@@ -95822,7 +95829,7 @@
       "icu_recording_time": 3276,
       "elapsed_time": 3316,
       "icu_weighted_avg_watts": 213,
-      "carbs_used": null,
+      "carbs_used": 135,
       "name": "Zwift - Endurance",
       "description": "🗺️ London 8 in London",
       "start_date": "2026-10-15T12:04:17Z",
@@ -517466,62 +517473,6 @@
   ],
   "wellness": [
     {
-      "id": "2025-10-18",
-      "ctl": 0.0,
-      "atl": 0.0,
-      "rampRate": 0.0,
-      "ctlLoad": 0.0,
-      "atlLoad": 0.0,
-      "sportInfo": [
-        {
-          "type": "Ride",
-          "eftp": null,
-          "wPrime": null,
-          "pMax": null
-        }
-      ],
-      "updated": "2026-06-05T06:06:50.249+00:00",
-      "weight": null,
-      "restingHR": 48,
-      "hrv": null,
-      "hrvSDNN": null,
-      "menstrualPhase": null,
-      "menstrualPhasePredicted": null,
-      "kcalConsumed": null,
-      "sleepSecs": null,
-      "sleepScore": null,
-      "sleepQuality": null,
-      "avgSleepingHR": null,
-      "soreness": null,
-      "fatigue": null,
-      "stress": null,
-      "mood": null,
-      "motivation": null,
-      "injury": null,
-      "spO2": null,
-      "systolic": null,
-      "diastolic": null,
-      "hydration": null,
-      "hydrationVolume": null,
-      "readiness": null,
-      "baevskySI": null,
-      "bloodGlucose": null,
-      "lactate": null,
-      "bodyFat": null,
-      "abdomen": null,
-      "vo2max": 63.0,
-      "comments": null,
-      "steps": 15493,
-      "floorsClimbed": null,
-      "respiration": null,
-      "carbohydrates": null,
-      "protein": null,
-      "fatTotal": null,
-      "locked": null,
-      "tempWeight": false,
-      "tempRestingHR": false
-    },
-    {
       "id": "2025-10-19",
       "ctl": 0.0,
       "atl": 0.0,
@@ -537920,9 +537871,9 @@
           "pMax": 1191.9768
         }
       ],
-      "updated": "2026-10-18T16:01:39.036+00:00",
+      "updated": "2026-10-19T05:00:32.826+00:00",
       "weight": null,
-      "restingHR": 44,
+      "restingHR": 43,
       "hrv": null,
       "hrvSDNN": null,
       "menstrualPhase": null,
@@ -537951,8 +537902,64 @@
       "abdomen": null,
       "vo2max": null,
       "comments": null,
-      "steps": 5536,
-      "floorsClimbed": null,
+      "steps": 7531,
+      "floorsClimbed": 7,
+      "respiration": null,
+      "carbohydrates": null,
+      "protein": null,
+      "fatTotal": null,
+      "locked": null,
+      "tempWeight": true,
+      "tempRestingHR": false
+    },
+    {
+      "id": "2026-10-19",
+      "ctl": 83.6125,
+      "atl": 71.30043,
+      "rampRate": -4.2540436,
+      "ctlLoad": 0.0,
+      "atlLoad": 0.0,
+      "sportInfo": [
+        {
+          "type": "Ride",
+          "eftp": 350.24353,
+          "wPrime": 29806.521,
+          "pMax": 1190.7848
+        }
+      ],
+      "updated": "2026-10-19T07:58:33.721+00:00",
+      "weight": null,
+      "restingHR": 38,
+      "hrv": 65.0,
+      "hrvSDNN": null,
+      "menstrualPhase": null,
+      "menstrualPhasePredicted": null,
+      "kcalConsumed": null,
+      "sleepSecs": 30780,
+      "sleepScore": 76.0,
+      "sleepQuality": 3,
+      "avgSleepingHR": null,
+      "soreness": null,
+      "fatigue": null,
+      "stress": null,
+      "mood": null,
+      "motivation": null,
+      "injury": null,
+      "spO2": null,
+      "systolic": null,
+      "diastolic": null,
+      "hydration": null,
+      "hydrationVolume": null,
+      "readiness": null,
+      "baevskySI": null,
+      "bloodGlucose": null,
+      "lactate": null,
+      "bodyFat": null,
+      "abdomen": null,
+      "vo2max": null,
+      "comments": null,
+      "steps": 3948,
+      "floorsClimbed": 3,
       "respiration": null,
       "carbohydrates": null,
       "protein": null,
@@ -537970,8 +537977,8 @@
             "id": "42d",
             "after_kj": 0,
             "label": "42 days",
-            "start_date_local": "2026-09-07T00:00:00",
-            "end_date_local": "2026-10-19T00:00:00",
+            "start_date_local": "2026-09-08T00:00:00",
+            "end_date_local": "2026-10-20T00:00:00",
             "days": 43,
             "moving_time": 0,
             "training_load": 0,
@@ -539233,14 +539240,14 @@
           }
         ],
         "activities": {
-          "20076803072": {
-            "id": "20076803072",
-            "name": "Peloton - 30 min Just Ride",
-            "distance": 19199.7,
-            "moving_time": 1802,
-            "training_load": 29,
-            "icu_weight": 78.5,
-            "start_date_local": "2026-09-07T17:38:02",
+          "i194408443": {
+            "id": "i194408443",
+            "name": "Indoor Cycling",
+            "distance": 43142.29,
+            "moving_time": 4809,
+            "training_load": 107,
+            "icu_weight": 79.0,
+            "start_date_local": "2026-10-06T18:36:39",
             "race": false
           },
           "i197854019": {
@@ -539263,6 +539270,26 @@
             "start_date_local": "2026-10-03T07:03:37",
             "race": false
           },
+          "i194132476": {
+            "id": "i194132476",
+            "name": "Lambeth Road Cycling",
+            "distance": 70941.88,
+            "moving_time": 7375,
+            "training_load": 120,
+            "icu_weight": 79.0,
+            "start_date_local": "2026-10-06T05:28:58",
+            "race": false
+          },
+          "i196022543": {
+            "id": "i196022543",
+            "name": "Zwift - Endurance",
+            "distance": 56935.25,
+            "moving_time": 7578,
+            "training_load": 138,
+            "icu_weight": 79.0,
+            "start_date_local": "2026-10-11T07:34:37",
+            "race": false
+          },
           "i190453632": {
             "id": "i190453632",
             "name": "Braintree Road Cycling",
@@ -539271,6 +539298,16 @@
             "training_load": 63,
             "icu_weight": 78.5,
             "start_date_local": "2026-09-26T07:34:56",
+            "race": false
+          },
+          "i187715332": {
+            "id": "i187715332",
+            "name": "Zwift - Tempus Fugit in Watopia",
+            "distance": 22496.11,
+            "moving_time": 2415,
+            "training_load": 53,
+            "icu_weight": 78.5,
+            "start_date_local": "2026-09-17T18:18:06",
             "race": false
           },
           "i184980496": {
@@ -539293,6 +539330,16 @@
             "start_date_local": "2026-09-19T05:53:25",
             "race": false
           },
+          "i196699841": {
+            "id": "i196699841",
+            "name": "Lambeth Road Cycling",
+            "distance": 69844.25,
+            "moving_time": 7220,
+            "training_load": 122,
+            "icu_weight": 79.0,
+            "start_date_local": "2026-10-13T05:32:41",
+            "race": false
+          },
           "i186507393": {
             "id": "i186507393",
             "name": "Indoor Cycling",
@@ -539301,6 +539348,16 @@
             "training_load": 94,
             "icu_weight": 78.5,
             "start_date_local": "2026-09-14T06:58:00",
+            "race": false
+          },
+          "20382959092": {
+            "id": "20382959092",
+            "name": "Zwift - Race: Zwift Racing League 26/27: Fast & Fresh : Open Aqua League Division 2 - Race 1 (A)",
+            "distance": 35873.1,
+            "moving_time": 3000,
+            "training_load": 83,
+            "icu_weight": 78.5,
+            "start_date_local": "2026-09-29T19:01:14",
             "race": false
           },
           "i190001502": {
@@ -539321,86 +539378,6 @@
             "training_load": 149,
             "icu_weight": 79.0,
             "start_date_local": "2026-10-10T07:06:40",
-            "race": false
-          },
-          "i184119752": {
-            "id": "i184119752",
-            "name": "Zwift - Endurance",
-            "distance": 35373.92,
-            "moving_time": 5405,
-            "training_load": 68,
-            "icu_weight": 78.5,
-            "start_date_local": "2026-09-07T06:44:33",
-            "race": false
-          },
-          "i188133852": {
-            "id": "i188133852",
-            "name": "Zwift - SS",
-            "distance": 48174.43,
-            "moving_time": 5143,
-            "training_load": 108,
-            "icu_weight": 78.5,
-            "start_date_local": "2026-09-19T07:26:54",
-            "race": false
-          },
-          "i194408443": {
-            "id": "i194408443",
-            "name": "Indoor Cycling",
-            "distance": 43142.29,
-            "moving_time": 4809,
-            "training_load": 107,
-            "icu_weight": 79.0,
-            "start_date_local": "2026-10-06T18:36:39",
-            "race": false
-          },
-          "i194132476": {
-            "id": "i194132476",
-            "name": "Lambeth Road Cycling",
-            "distance": 70941.88,
-            "moving_time": 7375,
-            "training_load": 120,
-            "icu_weight": 79.0,
-            "start_date_local": "2026-10-06T05:28:58",
-            "race": false
-          },
-          "i196022543": {
-            "id": "i196022543",
-            "name": "Zwift - Endurance",
-            "distance": 56935.25,
-            "moving_time": 7578,
-            "training_load": 138,
-            "icu_weight": 79.0,
-            "start_date_local": "2026-10-11T07:34:37",
-            "race": false
-          },
-          "i187715332": {
-            "id": "i187715332",
-            "name": "Zwift - Tempus Fugit in Watopia",
-            "distance": 22496.11,
-            "moving_time": 2415,
-            "training_load": 53,
-            "icu_weight": 78.5,
-            "start_date_local": "2026-09-17T18:18:06",
-            "race": false
-          },
-          "i196699841": {
-            "id": "i196699841",
-            "name": "Lambeth Road Cycling",
-            "distance": 69844.25,
-            "moving_time": 7220,
-            "training_load": 122,
-            "icu_weight": 79.0,
-            "start_date_local": "2026-10-13T05:32:41",
-            "race": false
-          },
-          "20382959092": {
-            "id": "20382959092",
-            "name": "Zwift - Race: Zwift Racing League 26/27: Fast & Fresh : Open Aqua League Division 2 - Race 1 (A)",
-            "distance": 35873.1,
-            "moving_time": 3000,
-            "training_load": 83,
-            "icu_weight": 78.5,
-            "start_date_local": "2026-09-29T19:01:14",
             "race": false
           },
           "i185151828": {
@@ -539441,6 +539418,16 @@
             "training_load": 143,
             "icu_weight": 78.5,
             "start_date_local": "2026-09-12T06:28:30",
+            "race": false
+          },
+          "i188133852": {
+            "id": "i188133852",
+            "name": "Zwift - SS",
+            "distance": 48174.43,
+            "moving_time": 5143,
+            "training_load": 108,
+            "icu_weight": 78.5,
+            "start_date_local": "2026-09-19T07:26:54",
             "race": false
           },
           "i186241771": {
@@ -539491,8 +539478,8 @@
             "id": "42d",
             "after_kj": 0,
             "label": "42 days",
-            "start_date_local": "2026-09-07T00:00:00",
-            "end_date_local": "2026-10-19T00:00:00",
+            "start_date_local": "2026-09-08T00:00:00",
+            "end_date_local": "2026-10-20T00:00:00",
             "days": 43,
             "moving_time": 0,
             "training_load": 0,
@@ -540754,14 +540741,14 @@
           }
         ],
         "activities": {
-          "20076803072": {
-            "id": "20076803072",
-            "name": "Peloton - 30 min Just Ride",
-            "distance": 19199.7,
-            "moving_time": 1802,
-            "training_load": 29,
-            "icu_weight": 78.5,
-            "start_date_local": "2026-09-07T17:38:02",
+          "i194408443": {
+            "id": "i194408443",
+            "name": "Indoor Cycling",
+            "distance": 43142.29,
+            "moving_time": 4809,
+            "training_load": 107,
+            "icu_weight": 79.0,
+            "start_date_local": "2026-10-06T18:36:39",
             "race": false
           },
           "i197854019": {
@@ -540784,6 +540771,26 @@
             "start_date_local": "2026-10-03T07:03:37",
             "race": false
           },
+          "i194132476": {
+            "id": "i194132476",
+            "name": "Lambeth Road Cycling",
+            "distance": 70941.88,
+            "moving_time": 7375,
+            "training_load": 120,
+            "icu_weight": 79.0,
+            "start_date_local": "2026-10-06T05:28:58",
+            "race": false
+          },
+          "i196022543": {
+            "id": "i196022543",
+            "name": "Zwift - Endurance",
+            "distance": 56935.25,
+            "moving_time": 7578,
+            "training_load": 138,
+            "icu_weight": 79.0,
+            "start_date_local": "2026-10-11T07:34:37",
+            "race": false
+          },
           "i190453632": {
             "id": "i190453632",
             "name": "Braintree Road Cycling",
@@ -540792,6 +540799,16 @@
             "training_load": 63,
             "icu_weight": 78.5,
             "start_date_local": "2026-09-26T07:34:56",
+            "race": false
+          },
+          "i187715332": {
+            "id": "i187715332",
+            "name": "Zwift - Tempus Fugit in Watopia",
+            "distance": 22496.11,
+            "moving_time": 2415,
+            "training_load": 53,
+            "icu_weight": 78.5,
+            "start_date_local": "2026-09-17T18:18:06",
             "race": false
           },
           "i184980496": {
@@ -540814,6 +540831,16 @@
             "start_date_local": "2026-09-19T05:53:25",
             "race": false
           },
+          "i196699841": {
+            "id": "i196699841",
+            "name": "Lambeth Road Cycling",
+            "distance": 69844.25,
+            "moving_time": 7220,
+            "training_load": 122,
+            "icu_weight": 79.0,
+            "start_date_local": "2026-10-13T05:32:41",
+            "race": false
+          },
           "i186507393": {
             "id": "i186507393",
             "name": "Indoor Cycling",
@@ -540822,6 +540849,16 @@
             "training_load": 94,
             "icu_weight": 78.5,
             "start_date_local": "2026-09-14T06:58:00",
+            "race": false
+          },
+          "20382959092": {
+            "id": "20382959092",
+            "name": "Zwift - Race: Zwift Racing League 26/27: Fast & Fresh : Open Aqua League Division 2 - Race 1 (A)",
+            "distance": 35873.1,
+            "moving_time": 3000,
+            "training_load": 83,
+            "icu_weight": 78.5,
+            "start_date_local": "2026-09-29T19:01:14",
             "race": false
           },
           "i190001502": {
@@ -540842,86 +540879,6 @@
             "training_load": 149,
             "icu_weight": 79.0,
             "start_date_local": "2026-10-10T07:06:40",
-            "race": false
-          },
-          "i184119752": {
-            "id": "i184119752",
-            "name": "Zwift - Endurance",
-            "distance": 35373.92,
-            "moving_time": 5405,
-            "training_load": 68,
-            "icu_weight": 78.5,
-            "start_date_local": "2026-09-07T06:44:33",
-            "race": false
-          },
-          "i188133852": {
-            "id": "i188133852",
-            "name": "Zwift - SS",
-            "distance": 48174.43,
-            "moving_time": 5143,
-            "training_load": 108,
-            "icu_weight": 78.5,
-            "start_date_local": "2026-09-19T07:26:54",
-            "race": false
-          },
-          "i194408443": {
-            "id": "i194408443",
-            "name": "Indoor Cycling",
-            "distance": 43142.29,
-            "moving_time": 4809,
-            "training_load": 107,
-            "icu_weight": 79.0,
-            "start_date_local": "2026-10-06T18:36:39",
-            "race": false
-          },
-          "i194132476": {
-            "id": "i194132476",
-            "name": "Lambeth Road Cycling",
-            "distance": 70941.88,
-            "moving_time": 7375,
-            "training_load": 120,
-            "icu_weight": 79.0,
-            "start_date_local": "2026-10-06T05:28:58",
-            "race": false
-          },
-          "i196022543": {
-            "id": "i196022543",
-            "name": "Zwift - Endurance",
-            "distance": 56935.25,
-            "moving_time": 7578,
-            "training_load": 138,
-            "icu_weight": 79.0,
-            "start_date_local": "2026-10-11T07:34:37",
-            "race": false
-          },
-          "i187715332": {
-            "id": "i187715332",
-            "name": "Zwift - Tempus Fugit in Watopia",
-            "distance": 22496.11,
-            "moving_time": 2415,
-            "training_load": 53,
-            "icu_weight": 78.5,
-            "start_date_local": "2026-09-17T18:18:06",
-            "race": false
-          },
-          "i196699841": {
-            "id": "i196699841",
-            "name": "Lambeth Road Cycling",
-            "distance": 69844.25,
-            "moving_time": 7220,
-            "training_load": 122,
-            "icu_weight": 79.0,
-            "start_date_local": "2026-10-13T05:32:41",
-            "race": false
-          },
-          "20382959092": {
-            "id": "20382959092",
-            "name": "Zwift - Race: Zwift Racing League 26/27: Fast & Fresh : Open Aqua League Division 2 - Race 1 (A)",
-            "distance": 35873.1,
-            "moving_time": 3000,
-            "training_load": 83,
-            "icu_weight": 78.5,
-            "start_date_local": "2026-09-29T19:01:14",
             "race": false
           },
           "i185151828": {
@@ -540962,6 +540919,16 @@
             "training_load": 143,
             "icu_weight": 78.5,
             "start_date_local": "2026-09-12T06:28:30",
+            "race": false
+          },
+          "i188133852": {
+            "id": "i188133852",
+            "name": "Zwift - SS",
+            "distance": 48174.43,
+            "moving_time": 5143,
+            "training_load": 108,
+            "icu_weight": 78.5,
+            "start_date_local": "2026-09-19T07:26:54",
             "race": false
           },
           "i186241771": {
@@ -541014,8 +540981,8 @@
             "id": "84d",
             "after_kj": 0,
             "label": "84 days",
-            "start_date_local": "2026-07-27T00:00:00",
-            "end_date_local": "2026-10-19T00:00:00",
+            "start_date_local": "2026-07-28T00:00:00",
+            "end_date_local": "2026-10-20T00:00:00",
             "days": 85,
             "moving_time": 0,
             "training_load": 0,
@@ -542427,16 +542394,6 @@
             "training_load": 135,
             "icu_weight": 78.5,
             "start_date_local": "2026-09-05T07:07:03",
-            "race": false
-          },
-          "i169777403": {
-            "id": "i169777403",
-            "name": "Camden Road Cycling",
-            "distance": 35385.72,
-            "moving_time": 3790,
-            "training_load": 55,
-            "icu_weight": 78.5,
-            "start_date_local": "2026-07-27T17:13:30",
             "race": false
           },
           "i194408443": {
@@ -542657,8 +542614,8 @@
             "id": "84d",
             "after_kj": 0,
             "label": "84 days",
-            "start_date_local": "2026-07-27T00:00:00",
-            "end_date_local": "2026-10-19T00:00:00",
+            "start_date_local": "2026-07-28T00:00:00",
+            "end_date_local": "2026-10-20T00:00:00",
             "days": 85,
             "moving_time": 0,
             "training_load": 0,
@@ -544070,16 +544027,6 @@
             "training_load": 135,
             "icu_weight": 78.5,
             "start_date_local": "2026-09-05T07:07:03",
-            "race": false
-          },
-          "i169777403": {
-            "id": "i169777403",
-            "name": "Camden Road Cycling",
-            "distance": 35385.72,
-            "moving_time": 3790,
-            "training_load": 55,
-            "icu_weight": 78.5,
-            "start_date_local": "2026-07-27T17:13:30",
             "race": false
           },
           "i194408443": {
@@ -544303,8 +544250,8 @@
             "after_kj": 0,
             "label": "All time",
             "start_date_local": "1986-01-01",
-            "end_date_local": "2026-10-19T23:59:59",
-            "days": 178,
+            "end_date_local": "2026-10-20T23:59:59",
+            "days": 179,
             "moving_time": 0,
             "training_load": 0,
             "weight": 79.0,
@@ -545976,8 +545923,8 @@
             "after_kj": 0,
             "label": "All time",
             "start_date_local": "1986-01-01",
-            "end_date_local": "2026-10-19T23:59:59",
-            "days": 178,
+            "end_date_local": "2026-10-20T23:59:59",
+            "days": 179,
             "moving_time": 0,
             "training_load": 0,
             "weight": 79.0,
@@ -547647,7 +547594,7 @@
   "power_curve_summary": [
     {
       "period": "42d",
-      "generated_date": "2026-10-18",
+      "generated_date": "2026-10-19",
       "5s": 1015,
       "15s": 878,
       "30s": 752,
@@ -547661,7 +547608,7 @@
     },
     {
       "period": "84d",
-      "generated_date": "2026-10-18",
+      "generated_date": "2026-10-19",
       "5s": 1015,
       "15s": 878,
       "30s": 752,
@@ -547675,7 +547622,7 @@
     },
     {
       "period": "all",
-      "generated_date": "2026-10-18",
+      "generated_date": "2026-10-19",
       "5s": 1165,
       "15s": 1000,
       "30s": 792,
