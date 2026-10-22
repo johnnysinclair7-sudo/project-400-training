@@ -1,9 +1,9 @@
 {
   "athlete_id": "i597214",
-  "generated_date": "2026-10-21",
+  "generated_date": "2026-10-22",
   "period": {
-    "from": "2025-10-21",
-    "to": "2026-10-21"
+    "from": "2025-10-22",
+    "to": "2026-10-22"
   },
   "activities": [
     {
@@ -522723,62 +522723,6 @@
   ],
   "wellness": [
     {
-      "id": "2025-10-21",
-      "ctl": 0.0,
-      "atl": 0.0,
-      "rampRate": 0.0,
-      "ctlLoad": 0.0,
-      "atlLoad": 0.0,
-      "sportInfo": [
-        {
-          "type": "Ride",
-          "eftp": null,
-          "wPrime": null,
-          "pMax": null
-        }
-      ],
-      "updated": "2026-06-05T06:06:50.249+00:00",
-      "weight": null,
-      "restingHR": 44,
-      "hrv": 43.0,
-      "hrvSDNN": null,
-      "menstrualPhase": null,
-      "menstrualPhasePredicted": null,
-      "kcalConsumed": null,
-      "sleepSecs": 24600,
-      "sleepScore": 60.0,
-      "sleepQuality": 3,
-      "avgSleepingHR": null,
-      "soreness": null,
-      "fatigue": null,
-      "stress": null,
-      "mood": null,
-      "motivation": null,
-      "injury": null,
-      "spO2": null,
-      "systolic": null,
-      "diastolic": null,
-      "hydration": null,
-      "hydrationVolume": null,
-      "readiness": null,
-      "baevskySI": null,
-      "bloodGlucose": null,
-      "lactate": null,
-      "bodyFat": null,
-      "abdomen": null,
-      "vo2max": null,
-      "comments": null,
-      "steps": 7567,
-      "floorsClimbed": null,
-      "respiration": null,
-      "carbohydrates": null,
-      "protein": null,
-      "fatTotal": null,
-      "locked": null,
-      "tempWeight": false,
-      "tempRestingHR": false
-    },
-    {
       "id": "2025-10-22",
       "ctl": 0.0,
       "atl": 0.0,
@@ -543177,7 +543121,7 @@
           "pMax": 1188.4044
         }
       ],
-      "updated": "2026-10-21T17:58:18.828+00:00",
+      "updated": "2026-10-22T05:52:34.343+00:00",
       "weight": null,
       "restingHR": 39,
       "hrv": 57.0,
@@ -543208,14 +543152,70 @@
       "abdomen": null,
       "vo2max": null,
       "comments": null,
-      "steps": 7866,
-      "floorsClimbed": 9,
+      "steps": 9367,
+      "floorsClimbed": 12,
       "respiration": null,
       "carbohydrates": null,
       "protein": null,
       "fatTotal": null,
       "locked": null,
       "tempWeight": true,
+      "tempRestingHR": false
+    },
+    {
+      "id": "2026-10-22",
+      "ctl": 81.13415,
+      "atl": 61.34535,
+      "rampRate": -8.144478,
+      "ctlLoad": 0.0,
+      "atlLoad": 0.0,
+      "sportInfo": [
+        {
+          "type": "Ride",
+          "eftp": 349.19385,
+          "wPrime": 29717.193,
+          "pMax": 1187.2161
+        }
+      ],
+      "updated": "2026-10-22T12:56:38.852+00:00",
+      "weight": null,
+      "restingHR": 34,
+      "hrv": 49.0,
+      "hrvSDNN": null,
+      "menstrualPhase": null,
+      "menstrualPhasePredicted": null,
+      "kcalConsumed": null,
+      "sleepSecs": 25560,
+      "sleepScore": 80.0,
+      "sleepQuality": 2,
+      "avgSleepingHR": null,
+      "soreness": null,
+      "fatigue": null,
+      "stress": null,
+      "mood": null,
+      "motivation": null,
+      "injury": null,
+      "spO2": null,
+      "systolic": null,
+      "diastolic": null,
+      "hydration": null,
+      "hydrationVolume": null,
+      "readiness": null,
+      "baevskySI": null,
+      "bloodGlucose": null,
+      "lactate": null,
+      "bodyFat": null,
+      "abdomen": null,
+      "vo2max": null,
+      "comments": null,
+      "steps": 4101,
+      "floorsClimbed": 7,
+      "respiration": null,
+      "carbohydrates": null,
+      "protein": null,
+      "fatTotal": null,
+      "locked": null,
+      "tempWeight": false,
       "tempRestingHR": false
     }
   ],
@@ -543227,8 +543227,8 @@
             "id": "42d",
             "after_kj": 0,
             "label": "42 days",
-            "start_date_local": "2026-09-10T00:00:00",
-            "end_date_local": "2026-10-22T00:00:00",
+            "start_date_local": "2026-09-11T00:00:00",
+            "end_date_local": "2026-10-23T00:00:00",
             "days": 43,
             "moving_time": 0,
             "training_load": 0,
@@ -544620,14 +544620,14 @@
             "start_date_local": "2026-10-10T07:06:40",
             "race": false
           },
-          "i185151828": {
-            "id": "i185151828",
-            "name": "Zwift - Endurance",
-            "distance": 31792.55,
-            "moving_time": 3614,
-            "training_load": 73,
+          "i185663218": {
+            "id": "i185663218",
+            "name": "Indoor Cycling",
+            "distance": 33843.26,
+            "moving_time": 3603,
+            "training_load": 40,
             "icu_weight": 78.5,
-            "start_date_local": "2026-09-10T06:42:11",
+            "start_date_local": "2026-09-11T16:32:17",
             "race": false
           },
           "i188438658": {
@@ -544718,8 +544718,8 @@
             "id": "42d",
             "after_kj": 0,
             "label": "42 days",
-            "start_date_local": "2026-09-10T00:00:00",
-            "end_date_local": "2026-10-22T00:00:00",
+            "start_date_local": "2026-09-11T00:00:00",
+            "end_date_local": "2026-10-23T00:00:00",
             "days": 43,
             "moving_time": 0,
             "training_load": 0,
@@ -546111,14 +546111,14 @@
             "start_date_local": "2026-10-10T07:06:40",
             "race": false
           },
-          "i185151828": {
-            "id": "i185151828",
-            "name": "Zwift - Endurance",
-            "distance": 31792.55,
-            "moving_time": 3614,
-            "training_load": 73,
+          "i185663218": {
+            "id": "i185663218",
+            "name": "Indoor Cycling",
+            "distance": 33843.26,
+            "moving_time": 3603,
+            "training_load": 40,
             "icu_weight": 78.5,
-            "start_date_local": "2026-09-10T06:42:11",
+            "start_date_local": "2026-09-11T16:32:17",
             "race": false
           },
           "i188438658": {
@@ -546211,8 +546211,8 @@
             "id": "84d",
             "after_kj": 0,
             "label": "84 days",
-            "start_date_local": "2026-07-30T00:00:00",
-            "end_date_local": "2026-10-22T00:00:00",
+            "start_date_local": "2026-07-31T00:00:00",
+            "end_date_local": "2026-10-23T00:00:00",
             "days": 85,
             "moving_time": 0,
             "training_load": 0,
@@ -547576,16 +547576,6 @@
             "start_date_local": "2026-08-18T05:50:39",
             "race": false
           },
-          "i170673672": {
-            "id": "i170673672",
-            "name": "City of Westminster Road Cycling",
-            "distance": 20002.68,
-            "moving_time": 2166,
-            "training_load": 36,
-            "icu_weight": 78.5,
-            "start_date_local": "2026-07-30T07:27:32",
-            "race": false
-          },
           "i195714549": {
             "id": "i195714549",
             "name": "Lambeth Road Cycling",
@@ -547794,16 +547784,6 @@
             "training_load": 70,
             "icu_weight": 78.5,
             "start_date_local": "2026-08-17T16:24:18",
-            "race": false
-          },
-          "i170665315": {
-            "id": "i170665315",
-            "name": "Camden Road Cycling",
-            "distance": 37524.29,
-            "moving_time": 3602,
-            "training_load": 78,
-            "icu_weight": 78.5,
-            "start_date_local": "2026-07-30T06:25:52",
             "race": false
           },
           "i186837147": {
@@ -547864,8 +547844,8 @@
             "id": "84d",
             "after_kj": 0,
             "label": "84 days",
-            "start_date_local": "2026-07-30T00:00:00",
-            "end_date_local": "2026-10-22T00:00:00",
+            "start_date_local": "2026-07-31T00:00:00",
+            "end_date_local": "2026-10-23T00:00:00",
             "days": 85,
             "moving_time": 0,
             "training_load": 0,
@@ -549229,16 +549209,6 @@
             "start_date_local": "2026-08-18T05:50:39",
             "race": false
           },
-          "i170673672": {
-            "id": "i170673672",
-            "name": "City of Westminster Road Cycling",
-            "distance": 20002.68,
-            "moving_time": 2166,
-            "training_load": 36,
-            "icu_weight": 78.5,
-            "start_date_local": "2026-07-30T07:27:32",
-            "race": false
-          },
           "i195714549": {
             "id": "i195714549",
             "name": "Lambeth Road Cycling",
@@ -549447,16 +549417,6 @@
             "training_load": 70,
             "icu_weight": 78.5,
             "start_date_local": "2026-08-17T16:24:18",
-            "race": false
-          },
-          "i170665315": {
-            "id": "i170665315",
-            "name": "Camden Road Cycling",
-            "distance": 37524.29,
-            "moving_time": 3602,
-            "training_load": 78,
-            "icu_weight": 78.5,
-            "start_date_local": "2026-07-30T06:25:52",
             "race": false
           },
           "i186837147": {
@@ -549520,8 +549480,8 @@
             "after_kj": 0,
             "label": "All time",
             "start_date_local": "1986-01-01",
-            "end_date_local": "2026-10-22T23:59:59",
-            "days": 181,
+            "end_date_local": "2026-10-23T23:59:59",
+            "days": 182,
             "moving_time": 0,
             "training_load": 0,
             "weight": 79.0,
@@ -551193,8 +551153,8 @@
             "after_kj": 0,
             "label": "All time",
             "start_date_local": "1986-01-01",
-            "end_date_local": "2026-10-22T23:59:59",
-            "days": 181,
+            "end_date_local": "2026-10-23T23:59:59",
+            "days": 182,
             "moving_time": 0,
             "training_load": 0,
             "weight": 79.0,
@@ -552864,7 +552824,7 @@
   "power_curve_summary": [
     {
       "period": "42d",
-      "generated_date": "2026-10-21",
+      "generated_date": "2026-10-22",
       "5s": 1029,
       "15s": 878,
       "30s": 752,
@@ -552878,7 +552838,7 @@
     },
     {
       "period": "84d",
-      "generated_date": "2026-10-21",
+      "generated_date": "2026-10-22",
       "5s": 1029,
       "15s": 878,
       "30s": 752,
@@ -552892,7 +552852,7 @@
     },
     {
       "period": "all",
-      "generated_date": "2026-10-21",
+      "generated_date": "2026-10-22",
       "5s": 1165,
       "15s": 1000,
       "30s": 792,
