@@ -7,6 +7,13 @@
   },
   "activities": [
     {
+      "id": "20868810181",
+      "icu_athlete_id": "i597214",
+      "start_date_local": "2026-11-05T11:36:47",
+      "source": "STRAVA",
+      "_note": "STRAVA activities are not available via the API"
+    },
+    {
       "id": "i205779271",
       "start_date_local": "2026-11-05T03:14:17",
       "type": "VirtualRide",
@@ -107,7 +114,7 @@
       ],
       "pace_zones": null,
       "lthr": 172,
-      "icu_resting_hr": 39,
+      "icu_resting_hr": 40,
       "icu_weight": 79.0,
       "icu_power_zones": [
         55,
@@ -121,7 +128,7 @@
       "icu_sweet_spot_min": 84,
       "icu_sweet_spot_max": 97,
       "icu_power_spike_threshold": null,
-      "trimp": 39.195545,
+      "trimp": 38.700893,
       "icu_warmup_time": 0,
       "icu_cooldown_time": 0,
       "icu_chat_id": null,
@@ -100838,7 +100845,7 @@
       ],
       "pace_zones": null,
       "lthr": 172,
-      "icu_resting_hr": 39,
+      "icu_resting_hr": 40,
       "icu_weight": 79.0,
       "icu_power_zones": [
         55,
@@ -100852,7 +100859,7 @@
       "icu_sweet_spot_min": 84,
       "icu_sweet_spot_max": 97,
       "icu_power_spike_threshold": null,
-      "trimp": 39.195545,
+      "trimp": 38.700893,
       "icu_warmup_time": 0,
       "icu_cooldown_time": 0,
       "icu_chat_id": null,
@@ -590510,7 +590517,7 @@
           "pMax": 1175.3973
         }
       ],
-      "updated": "2026-11-04T20:11:49.161+00:00",
+      "updated": "2026-11-05T06:01:04.536+00:00",
       "weight": null,
       "restingHR": 39,
       "hrv": 70.0,
@@ -590541,8 +590548,8 @@
       "abdomen": null,
       "vo2max": 64.0,
       "comments": null,
-      "steps": 14026,
-      "floorsClimbed": 34,
+      "steps": 14676,
+      "floorsClimbed": 35,
       "respiration": null,
       "carbohydrates": null,
       "protein": null,
@@ -590553,11 +590560,11 @@
     },
     {
       "id": "2026-11-05",
-      "ctl": 78.74555,
-      "atl": 65.41101,
-      "rampRate": -3.4475555,
-      "ctlLoad": 27.0,
-      "atlLoad": 27.0,
+      "ctl": 80.74545,
+      "atl": 76.72639,
+      "rampRate": -1.4476547,
+      "ctlLoad": 112.0,
+      "atlLoad": 112.0,
       "sportInfo": [
         {
           "type": "Ride",
@@ -590566,17 +590573,17 @@
           "pMax": 1174.2219
         }
       ],
-      "updated": "2026-11-04T17:59:50.295+00:00",
+      "updated": "2026-11-05T16:22:24.136+00:00",
       "weight": null,
-      "restingHR": null,
-      "hrv": null,
+      "restingHR": 40,
+      "hrv": 58.0,
       "hrvSDNN": null,
       "menstrualPhase": null,
       "menstrualPhasePredicted": null,
       "kcalConsumed": null,
-      "sleepSecs": null,
-      "sleepScore": null,
-      "sleepQuality": null,
+      "sleepSecs": 24420,
+      "sleepScore": 72.0,
+      "sleepQuality": 3,
       "avgSleepingHR": null,
       "soreness": null,
       "fatigue": null,
@@ -590597,15 +590604,15 @@
       "abdomen": null,
       "vo2max": null,
       "comments": null,
-      "steps": null,
-      "floorsClimbed": null,
+      "steps": 4699,
+      "floorsClimbed": 15,
       "respiration": null,
       "carbohydrates": null,
       "protein": null,
       "fatTotal": null,
       "locked": null,
       "tempWeight": true,
-      "tempRestingHR": true
+      "tempRestingHR": false
     }
   ],
   "power_curves": {
