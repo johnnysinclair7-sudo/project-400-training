@@ -610170,7 +610170,7 @@
           "pMax": 1169.5322
         }
       ],
-      "updated": "2026-11-11T11:25:54.924+00:00",
+      "updated": "2026-11-12T06:00:56.856+00:00",
       "weight": null,
       "restingHR": 41,
       "hrv": 53.0,
@@ -610201,8 +610201,8 @@
       "abdomen": null,
       "vo2max": null,
       "comments": null,
-      "steps": 2338,
-      "floorsClimbed": 2,
+      "steps": 4941,
+      "floorsClimbed": 8,
       "respiration": null,
       "carbohydrates": null,
       "protein": null,
@@ -610226,9 +610226,9 @@
           "pMax": 1168.3627
         }
       ],
-      "updated": "2026-11-10T08:37:36.501+00:00",
+      "updated": "2026-11-12T14:10:24.028+00:00",
       "weight": null,
-      "restingHR": null,
+      "restingHR": 45,
       "hrv": null,
       "hrvSDNN": null,
       "menstrualPhase": null,
@@ -610257,8 +610257,8 @@
       "abdomen": null,
       "vo2max": null,
       "comments": null,
-      "steps": null,
-      "floorsClimbed": null,
+      "steps": 6970,
+      "floorsClimbed": 8,
       "respiration": null,
       "carbohydrates": null,
       "protein": null,
