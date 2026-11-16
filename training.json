@@ -1,11 +1,46 @@
 {
   "athlete_id": "i597214",
-  "generated_date": "2026-11-15",
+  "generated_date": "2026-11-16",
   "period": {
-    "from": "2025-11-15",
-    "to": "2026-11-15"
+    "from": "2025-11-16",
+    "to": "2026-11-16"
   },
   "activities": [
+    {
+      "id": "21011430387",
+      "icu_athlete_id": "i597214",
+      "start_date_local": "2026-11-16T17:31:12",
+      "source": "STRAVA",
+      "_note": "STRAVA activities are not available via the API"
+    },
+    {
+      "id": "21011174536",
+      "icu_athlete_id": "i597214",
+      "start_date_local": "2026-11-16T17:01:42",
+      "source": "STRAVA",
+      "_note": "STRAVA activities are not available via the API"
+    },
+    {
+      "id": "21008469532",
+      "icu_athlete_id": "i597214",
+      "start_date_local": "2026-11-16T12:33:44",
+      "source": "STRAVA",
+      "_note": "STRAVA activities are not available via the API"
+    },
+    {
+      "id": "21005803312",
+      "icu_athlete_id": "i597214",
+      "start_date_local": "2026-11-16T07:48:21",
+      "source": "STRAVA",
+      "_note": "STRAVA activities are not available via the API"
+    },
+    {
+      "id": "21005545831",
+      "icu_athlete_id": "i597214",
+      "start_date_local": "2026-11-16T07:25:00",
+      "source": "STRAVA",
+      "_note": "STRAVA activities are not available via the API"
+    },
     {
       "id": "20993767933",
       "icu_athlete_id": "i597214",
@@ -589786,62 +589821,6 @@
   ],
   "wellness": [
     {
-      "id": "2025-11-15",
-      "ctl": 0.0,
-      "atl": 0.0,
-      "rampRate": 0.0,
-      "ctlLoad": 0.0,
-      "atlLoad": 0.0,
-      "sportInfo": [
-        {
-          "type": "Ride",
-          "eftp": null,
-          "wPrime": null,
-          "pMax": null
-        }
-      ],
-      "updated": "2026-06-05T06:06:50.249+00:00",
-      "weight": null,
-      "restingHR": 42,
-      "hrv": 50.0,
-      "hrvSDNN": null,
-      "menstrualPhase": null,
-      "menstrualPhasePredicted": null,
-      "kcalConsumed": null,
-      "sleepSecs": 22860,
-      "sleepScore": 64.0,
-      "sleepQuality": 3,
-      "avgSleepingHR": null,
-      "soreness": null,
-      "fatigue": null,
-      "stress": null,
-      "mood": null,
-      "motivation": null,
-      "injury": null,
-      "spO2": null,
-      "systolic": null,
-      "diastolic": null,
-      "hydration": null,
-      "hydrationVolume": null,
-      "readiness": null,
-      "baevskySI": null,
-      "bloodGlucose": null,
-      "lactate": null,
-      "bodyFat": null,
-      "abdomen": null,
-      "vo2max": null,
-      "comments": null,
-      "steps": 10957,
-      "floorsClimbed": null,
-      "respiration": null,
-      "carbohydrates": null,
-      "protein": null,
-      "fatTotal": null,
-      "locked": null,
-      "tempWeight": false,
-      "tempRestingHR": false
-    },
-    {
       "id": "2025-11-16",
       "ctl": 0.0,
       "atl": 0.0,
@@ -610280,6 +610259,62 @@
       "locked": null,
       "tempWeight": true,
       "tempRestingHR": true
+    },
+    {
+      "id": "2026-11-16",
+      "ctl": 73.918915,
+      "atl": 53.46842,
+      "rampRate": -6.583946,
+      "ctlLoad": 76.0,
+      "atlLoad": 76.0,
+      "sportInfo": [
+        {
+          "type": "Ride",
+          "eftp": 344.09744,
+          "wPrime": 29412.467,
+          "pMax": 1163.6963
+        }
+      ],
+      "updated": "2026-11-16T17:51:44.074+00:00",
+      "weight": null,
+      "restingHR": null,
+      "hrv": null,
+      "hrvSDNN": null,
+      "menstrualPhase": null,
+      "menstrualPhasePredicted": null,
+      "kcalConsumed": null,
+      "sleepSecs": null,
+      "sleepScore": null,
+      "sleepQuality": null,
+      "avgSleepingHR": null,
+      "soreness": null,
+      "fatigue": null,
+      "stress": null,
+      "mood": null,
+      "motivation": null,
+      "injury": null,
+      "spO2": null,
+      "systolic": null,
+      "diastolic": null,
+      "hydration": null,
+      "hydrationVolume": null,
+      "readiness": null,
+      "baevskySI": null,
+      "bloodGlucose": null,
+      "lactate": null,
+      "bodyFat": null,
+      "abdomen": null,
+      "vo2max": null,
+      "comments": null,
+      "steps": null,
+      "floorsClimbed": null,
+      "respiration": null,
+      "carbohydrates": null,
+      "protein": null,
+      "fatTotal": null,
+      "locked": null,
+      "tempWeight": true,
+      "tempRestingHR": true
     }
   ],
   "power_curves": {
@@ -610290,8 +610325,8 @@
             "id": "42d",
             "after_kj": 0,
             "label": "42 days",
-            "start_date_local": "2026-10-05T00:00:00",
-            "end_date_local": "2026-11-16T00:00:00",
+            "start_date_local": "2026-10-06T00:00:00",
+            "end_date_local": "2026-11-17T00:00:00",
             "days": 43,
             "moving_time": 0,
             "training_load": 0,
@@ -611621,16 +611656,6 @@
             "training_load": 81,
             "icu_weight": 79.0,
             "start_date_local": "2026-10-28T04:29:28",
-            "race": false
-          },
-          "i193694596": {
-            "id": "i193694596",
-            "name": "Morning Ride",
-            "distance": 47917.27,
-            "moving_time": 6162,
-            "training_load": 73,
-            "icu_weight": 79.0,
-            "start_date_local": "2026-10-05T06:30:31",
             "race": false
           },
           "i206893296": {
@@ -611661,8 +611686,8 @@
             "id": "42d",
             "after_kj": 0,
             "label": "42 days",
-            "start_date_local": "2026-10-05T00:00:00",
-            "end_date_local": "2026-11-16T00:00:00",
+            "start_date_local": "2026-10-06T00:00:00",
+            "end_date_local": "2026-11-17T00:00:00",
             "days": 43,
             "moving_time": 0,
             "training_load": 0,
@@ -612992,16 +613017,6 @@
             "training_load": 81,
             "icu_weight": 79.0,
             "start_date_local": "2026-10-28T04:29:28",
-            "race": false
-          },
-          "i193694596": {
-            "id": "i193694596",
-            "name": "Morning Ride",
-            "distance": 47917.27,
-            "moving_time": 6162,
-            "training_load": 73,
-            "icu_weight": 79.0,
-            "start_date_local": "2026-10-05T06:30:31",
             "race": false
           },
           "i206893296": {
@@ -613034,8 +613049,8 @@
             "id": "84d",
             "after_kj": 0,
             "label": "84 days",
-            "start_date_local": "2026-08-24T00:00:00",
-            "end_date_local": "2026-11-16T00:00:00",
+            "start_date_local": "2026-08-25T00:00:00",
+            "end_date_local": "2026-11-17T00:00:00",
             "days": 85,
             "moving_time": 0,
             "training_load": 0,
@@ -614377,16 +614392,6 @@
             "start_date_local": "2026-10-22T17:38:00",
             "race": false
           },
-          "i179126033": {
-            "id": "i179126033",
-            "name": "Zwift - Endurance",
-            "distance": 29507.68,
-            "moving_time": 3616,
-            "training_load": 78,
-            "icu_weight": 78.5,
-            "start_date_local": "2026-08-24T07:24:11",
-            "race": false
-          },
           "i188133852": {
             "id": "i188133852",
             "name": "Zwift - SS",
@@ -614545,6 +614550,16 @@
             "training_load": 87,
             "icu_weight": 79.0,
             "start_date_local": "2026-10-25T21:40:49",
+            "race": false
+          },
+          "i185151828": {
+            "id": "i185151828",
+            "name": "Zwift - Endurance",
+            "distance": 31792.55,
+            "moving_time": 3614,
+            "training_load": 73,
+            "icu_weight": 78.5,
+            "start_date_local": "2026-09-10T06:42:11",
             "race": false
           },
           "i188438658": {
@@ -614635,8 +614650,8 @@
             "id": "84d",
             "after_kj": 0,
             "label": "84 days",
-            "start_date_local": "2026-08-24T00:00:00",
-            "end_date_local": "2026-11-16T00:00:00",
+            "start_date_local": "2026-08-25T00:00:00",
+            "end_date_local": "2026-11-17T00:00:00",
             "days": 85,
             "moving_time": 0,
             "training_load": 0,
@@ -615978,16 +615993,6 @@
             "start_date_local": "2026-10-22T17:38:00",
             "race": false
           },
-          "i179126033": {
-            "id": "i179126033",
-            "name": "Zwift - Endurance",
-            "distance": 29507.68,
-            "moving_time": 3616,
-            "training_load": 78,
-            "icu_weight": 78.5,
-            "start_date_local": "2026-08-24T07:24:11",
-            "race": false
-          },
           "i188133852": {
             "id": "i188133852",
             "name": "Zwift - SS",
@@ -616146,6 +616151,16 @@
             "training_load": 87,
             "icu_weight": 79.0,
             "start_date_local": "2026-10-25T21:40:49",
+            "race": false
+          },
+          "i185151828": {
+            "id": "i185151828",
+            "name": "Zwift - Endurance",
+            "distance": 31792.55,
+            "moving_time": 3614,
+            "training_load": 73,
+            "icu_weight": 78.5,
+            "start_date_local": "2026-09-10T06:42:11",
             "race": false
           },
           "i188438658": {
@@ -616239,8 +616254,8 @@
             "after_kj": 0,
             "label": "All time",
             "start_date_local": "1986-01-01",
-            "end_date_local": "2026-11-16T23:59:59",
-            "days": 206,
+            "end_date_local": "2026-11-17T23:59:59",
+            "days": 207,
             "moving_time": 0,
             "training_load": 0,
             "weight": 79.0,
@@ -617942,8 +617957,8 @@
             "after_kj": 0,
             "label": "All time",
             "start_date_local": "1986-01-01",
-            "end_date_local": "2026-11-16T23:59:59",
-            "days": 206,
+            "end_date_local": "2026-11-17T23:59:59",
+            "days": 207,
             "moving_time": 0,
             "training_load": 0,
             "weight": 79.0,
@@ -619643,7 +619658,7 @@
   "power_curve_summary": [
     {
       "period": "42d",
-      "generated_date": "2026-11-15",
+      "generated_date": "2026-11-16",
       "5s": 1029,
       "15s": 878,
       "30s": 821,
@@ -619657,7 +619672,7 @@
     },
     {
       "period": "84d",
-      "generated_date": "2026-11-15",
+      "generated_date": "2026-11-16",
       "5s": 1029,
       "15s": 878,
       "30s": 821,
@@ -619671,7 +619686,7 @@
     },
     {
       "period": "all",
-      "generated_date": "2026-11-15",
+      "generated_date": "2026-11-16",
       "5s": 1165,
       "15s": 1000,
       "30s": 821,
