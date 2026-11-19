@@ -7,6 +7,20 @@
   },
   "activities": [
     {
+      "id": "21050004726",
+      "icu_athlete_id": "i597214",
+      "start_date_local": "2026-11-19T17:51:17",
+      "source": "STRAVA",
+      "_note": "STRAVA activities are not available via the API"
+    },
+    {
+      "id": "21049123001",
+      "icu_athlete_id": "i597214",
+      "start_date_local": "2026-11-19T16:35:58",
+      "source": "STRAVA",
+      "_note": "STRAVA activities are not available via the API"
+    },
+    {
       "id": "21046296619",
       "icu_athlete_id": "i597214",
       "start_date_local": "2026-11-19T12:02:18",
@@ -610311,11 +610325,11 @@
     },
     {
       "id": "2026-11-19",
-      "ctl": 74.04625,
-      "atl": 59.637604,
-      "rampRate": -3.935585,
-      "ctlLoad": 0.0,
-      "atlLoad": 0.0,
+      "ctl": 75.152084,
+      "atl": 65.89434,
+      "rampRate": -2.82975,
+      "ctlLoad": 47.0,
+      "atlLoad": 47.0,
       "sportInfo": [
         {
           "type": "Ride",
@@ -610324,7 +610338,7 @@
           "pMax": 1160.2087
         }
       ],
-      "updated": "2026-11-18T17:46:50.050+00:00",
+      "updated": "2026-11-19T17:27:05.278+00:00",
       "weight": null,
       "restingHR": null,
       "hrv": null,
